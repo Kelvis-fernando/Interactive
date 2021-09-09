@@ -1,0 +1,2961 @@
+{
+    "formRules": {
+        "required": {
+            "error": "Obrigatório",
+            "hint": "Este campo é obrigatório"
+        },
+        "min": {
+            "error": "Min {n} caracteres",
+            "hint": "No mínimo {n} caracteres"
+        },
+        "max": {
+            "error": "Max {n} caracteres",
+            "hint": "Número máximo de {n} caracteres permitido"
+        },
+        "domain": {
+            "example": "Exemplo: headerinteractive.com",
+            "checking": "Verificando domínio",
+            "error": {
+                "invalid": "Domínio Inválido",
+                "exists": "Este domínio já existe."
+            },
+            "hint": {
+                "example": "Exemplo: headerinteractive.com (Você não poderá alterá-lo mais tarde!)",
+                "available": "Domínio disponível"
+            }
+        },
+        "url": {
+            "error": "Faltando protocolo na url. (http:// ou https://)"
+        },
+        "fields": {
+            "error": {
+                "type": "Este tipo de campo não existe"
+            }
+        },
+        "password": {
+            "invalid": "Senha Inválida"
+        }
+    },
+
+    "languages": {
+        "english": "Inglês",
+        "portuguese": "Português",
+        "spanish": "Espanhol"
+    },
+
+    "stepper": {
+        "actions": {
+            "cancel": "Cancelar",
+            "back": "Voltar",
+            "next": "Próximo",
+            "finish": "Finalizar",
+            "save": "Salvar",
+            "saveAndRun": "Salvar & Executar",
+            "publish": "Publicar",
+            "schedule": "Programar",
+            "sendNow": "Enviar Agora",
+            "send": "Enviar"
+        }
+    },
+
+    "search": {
+        "default": "Pesquisar",
+        "selectType": "Selecione um campo",
+        "conditions": {
+            "and": "E",
+            "or": "OU",
+            "isNotIn": "NÃO ESTÁ EM"
+        },
+        "operators": {
+            "contains": "CONTÉM",
+            "notContains": "NÃO CONTÉM",
+            "equals": "IGUAL A",
+            "notEqual": "DIFERENTE DE",
+            "startsWith": "COMEÇA COM",
+            "notStartsWith": "NÃO COMEÇA COM",
+            "endsWith": "TERMINA COM",
+            "notEndsWith": "NÃO TERMINA COM",
+            "greater": "MAIOR QUE",
+            "greaterEqual": "MAIOR OU IGUAL A",
+            "less": "MENOR QUE",
+            "lessEqual": "MENOR OU IGUAL A",
+            "isNull": "É NULO",
+            "isNotNull": "NÃO É NULO"
+        },
+        "btnSearch": "Pesquisar"
+    },
+
+    "listActions": {
+        "viewList": "Modo lista",
+        "viewCards": "Modo cartões",
+        "refresh": "Atualizar",
+        "updated": "Atualizado",
+        "deleteMultiple": "Deletar selecionados"
+    },
+
+    "cards": {
+        "audience": "AUDIÊNCIA",
+        "created": "Criado em",
+        "devices": "DISPOSITIVOS",
+        "type": "TIPO",
+        "status": "STATUS",
+        "related": "Relacionado a",
+        "download": "Baixar",
+        "select": "Selecione",
+        "edit": "EDITAR",
+        "delete": "DELETAR"
+    },
+
+    "chartsType": {
+        "barHorizontal": "Barra Horizontal",
+        "barVertical": "Barra Vertical",
+        "pie": "Pizza",
+        "doughnut": "Rosca",
+        "area": "Área",
+        "count": "Contador",
+        "line": "Linha",
+        "table": "Tabela",
+        "timeline": "Linha do Tempo",
+        "map": "Mapa",
+        "heatMap": "Mapa de Calor",
+        "arcDiagram": "Diagrama de Arco"
+    },
+
+    "dialog": {
+        "close": "Fechar",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "save": "Salvar",
+        "ok": "OK",
+        "accept": "Aceitar",
+        "apply": "Aplicar",
+        "export": {
+            "text": "Como você gostaria de completar a operação de Exportar?",
+            "subtext": "Escolha a melhor opção"
+        },
+        "edit": "Editar",
+        "removeText": "Você tem certeza que quer deletar",
+        "removeSub": "Esta ação não pode ser desfeita",
+        "removeAll": "todos(as)"
+    },
+
+    "files": {
+        "typeNotAllowed": "Formato não permitido",
+        "sizeLimitText": "O limite de tamanho não pode exceder {size}.",
+        "tryAnother": "Tente fazer upload de outro arquivo",
+        "dragTitle": "Arraste seu arquivo para cá",
+        "dragSubtitle": "Ou {click} para navegar",
+        "uploadProgress": "Progresso de upload: {progress}%",
+        "readingFile": "Lendo arquivo",
+        "validating": "Validando",
+        "validRows": "Nenhuma linha válida | {n} Linha valida | {n} Linhas válidas",
+        "noFile": "Nenhum arquivo enviado",
+        "fileUploaded": "Arquivo enviado",
+        "invalid": {
+            "row": "Linhas Inválidas",
+            "missingEmail": "E-mail ausente",
+            "email": "E-mail inválido",
+            "duplicated": "E-mail duplicados"
+        }
+    },
+
+    "dataTable": {
+        "ariaLabel": {
+            "sortAscending": ": Crescente",
+            "sortDescending": ": Decrescente",
+            "sortNone": ": Nenhum"
+        },
+        "itemsPerPageText": "Itens por página:",
+        "rowsPerPageText": "Linhas por página:",
+        "sortBy": "Ordenar por"
+    },
+
+    "dataIterator": {
+        "rowsPerPageText": "Itens por página:",
+        "rowsPerPageAll": "Tudo",
+        "pageText": "{0}-{1} de {2}",
+        "noResultsText": "Nenhum registro encontrado",
+        "nextPage": "Próxima",
+        "prevPage": "Anterior",
+        "loadingText": "Carregando"
+    },
+
+    "dataFooter": {
+        "itemsPerPageAll": "",
+        "pageText": "",
+        "prevPage": "",
+        "nextPage": ""
+    },
+
+    "date": {
+        "format": "dd/MM/yyyy",
+        "placeholder": "DD/MM/YYYY",
+        "displayFormats": {
+            "date": "dd/MM/yyyy",
+            "time": "HH:mm:ss",
+            "datetime": "dd/MM/yyyy HH:mm:ss"
+        }
+    },
+
+    "toast": {
+        "sessionExpired": "Sessão Expirada",
+        "Somenthing wrong happened! Try Again Later": "Algo errado aconteceu! Tente mais tarde",
+        "notOwner": {
+            "default": "Você não é responsável",
+            "delete": "Você só pode deletar o que é seu",
+            "edit": "Você só pode editar o que é seu"
+        },
+        "Permission denied": "Permissão negada",
+        "Database not found": "Banco de dados não encontrado",
+        "search": {
+            "invalid": "Consulta inválida"
+        },
+        "schedule": {
+            "It was not possible to cancel this Job": "Não foi possível cancelar.\n Tente mais tarde",
+            "outOfDate": "Você não pode enviar nesse dia",
+            "outOfTime": "Você não pode enviar nesse horário"
+        },
+        "wrongDimensions": "Dimensões inválidas",
+        "field": {
+            "notMatch": "O tipo do campo não corresponde"
+        },
+        "config": {
+            "changedPassword": "Senha alterada",
+            "passwordError": "Senha atual não corresponde"
+        },
+        "copied": "Copiado",
+        "selectAudience": "Selecione uma audiência",
+        "Unable to add to queue": "Não foi possível enviar agora",
+        "Suspending is not allowed": "Não pode suspender mensagem enviada",
+        "queue": {
+            "jobSent": "Enviado para a fila"
+        },
+        "redirect": "Você será redirecionado em 3s",
+        "companies": {
+            "created": "Empresa criada",
+            "updated": "Empresa atualizada",
+            "deleted": "Empresa deletada | Empresas deletadas"
+        },
+        "users": {
+            "created": "Usuário criado",
+            "updated": "Usuário atualizado",
+            "deleted": "Usuário deletado | Usuários deletados"
+        },
+        "apiKeys": {
+            "created": "Chave criada",
+            "updated": "Chave atualizada",
+            "deleted": "Chave deletada | Chaves deletadas"
+        },
+        "items": {
+            "created": "Item criado",
+            "updated": "Item atualizado",
+            "deleted": "Item deletado | Itens deletados"
+        },
+        "dashboards": {
+            "created": "Dashboard criado",
+            "updated": "Dashboard atualizado",
+            "deleted": "Dashboard deletado | Dashboards deletados",
+            "exists": "Este dashboard já existe",
+            "widgets": {
+                "created": "Widget criado",
+                "updated": "Widget atualizado",
+                "deleted": "Widget deletado | Widgets deletados",
+                "nameExists": "Um widget com este nome já existe"
+            }
+        },
+        "flows": {
+            "created": "Fluxo criado",
+            "updated": "Fluxo atualizado",
+            "deleted": "Fluxo deletado | Fluxos deletados"
+        },
+        "databases": {
+            "created": "Banco de dados criado",
+            "updated": "Banco de dados atualizado",
+            "deleted": "Banco de dados deletado | Bancos de dados deletados",
+            "itsused": "Banco de dados relacionado não pode ser deletado"
+        },
+        "contactLists": {
+            "created": "Lista de contatos criada",
+            "updated": "Lista de contatos atualizada",
+            "deleted": "Lista de contatos deletada | Listas de contatos deletadas",
+            "exists": "Esta lista de contatos já existe",
+            "removed": "Contato removido | Contatos removidos"
+        },
+        "relationalTables": {
+            "created": "Tabela relacional criada",
+            "updated": "Tabela relacional atualizada",
+            "deleted": "Tabela relacional deletada | Tabelas relacionais deletadas"
+        },
+        "segments": {
+            "created": "Segmento criada",
+            "updated": "Segmento atualizada",
+            "deleted": "Segmento deletado | Segmentos deletados"
+        },
+        "fields": {
+            "created": "Campo criado",
+            "updated": "Campo atualizado",
+            "deleted": "Campo deletado | Campos deletados"
+        },
+        "contacts": {
+            "created": "Contato criado",
+            "updated": "Contato atualizado",
+            "deleted": "Contato deletado | Contatos deletados",
+            "exists": "Este contato já existe nesta lista de contatos"
+        },
+        "webForms": {
+            "created": "Formulário web criado",
+            "updated": "Formulário web atualizado",
+            "deleted": "Formulário web deletado | Formulários web deletados"
+        },
+        "apps": {
+            "created": "App criado",
+            "updated": "App atualizado",
+            "deleted": "App deletado | Apps deletados",
+            "exists": "Este App já existe"
+        },
+        "platforms": {
+            "created": "Plataforma criada",
+            "updated": "Plataforma atualizada",
+            "deleted": "Plataforma deletada | Plataformas deletadas",
+            "exists": "Esta Plataforma já existe"
+        },
+        "domains": {
+            "created": "Domínio criado",
+            "updated": "Domínio atualizado",
+            "deleted": "Domínio deletado | Domínios deletados",
+            "exists": "Este domínio já existe",
+            "notVerified": "O domínio {domain} ainda não foi verificado. Tente mais tarde"
+        },
+        "channels": {
+            "created": "Canal criado",
+            "updated": "Canal atualizado",
+            "deleted": "Canal deletado | Canais deletados"
+        },
+        "email": {
+            "created": "Email criada",
+            "updated": "Email atualizada",
+            "deleted": "Email deletada | Email's deletadas",
+            "published": "Email publicado",
+            "scheduled": "Email agendado",
+            "sent": "Email enviado",
+            "errorPublish": "Não foi possível publicar este email!",
+            "shouldPublish": "Este email não está publicado. Ele precisa ser publicado antes de rodar este programa!",
+            "isLinkedToActiveProgram": "Este email está vinculado a um programa ativo. ({params}) | Este email está vinculado a programas ativos. ({params})",
+            "isPublishedCannotUpdate": "Este email está publicado. Não pode ser alterado",
+            "onlyOwnerCanChangeToDraft": "Apenas o responsável pode alterar para rascunho",
+            "template": {
+                "created": "Template de email criado",
+                "updated": "Template de email atualizado",
+                "deleted": "Template de email deletado | Templates de email deletados"
+            }
+        },
+        "push": {
+            "created": "Push criado",
+            "updated": "Push atualizado",
+            "deleted": "Push deletado | Push's deletados",
+            "published": "Push publicado",
+            "scheduled": "Push agendado",
+            "sent": "Push enviado",
+            "errorPublish": "Não foi possível publicar este push!",
+            "shouldPublish": "Este push não está publicado. Ela precisa ser publicado antes de rodar este programa!",
+            "isLinkedToActiveProgram": "Este push está vinculado a um programa ativo. ({params}) | Este push está vinculado a programas ativos. ({params})",
+            "isPublishedCannotUpdate": "Este push está publicado. Não pode ser alterado",
+            "onlyOwnerCanChangeToDraft": "Apenas o responsável pode alterar para rascunho"
+        },
+        "sms": {
+            "created": "SMS criada",
+            "updated": "SMS atualizada",
+            "deleted": "SMS deletada | SMS's deletadas",
+            "published": "SMS publicado",
+            "scheduled": "SMS agendado",
+            "sent": "SMS enviado",
+            "errorPublish": "Não foi possível publicar este sms!",
+            "shouldPublish": "Este sms não está publicado. Ela precisa ser publicado antes de rodar este programa!",
+            "isLinkedToActiveProgram": "Este sms está vinculado a um programa ativo. ({params}) | Este sms está vinculado a programas ativos. ({params})",
+            "isPublishedCannotUpdate": "Este sms está publicado. Não pode ser alterado",
+            "onlyOwnerCanChangeToDraft": "Apenas o responsável pode alterar para rascunho"
+        },
+        "experiment": {
+            "created": "Experimento criado",
+            "updated": "Experimento atualizado",
+            "deleted": "Experimento deletado | Experimentos deletados",
+            "exists": "Este experimento já existe",
+            "running": "Você não pode deletar enquanto o experimento está em execução",
+            "variations": {
+                "nameExists": "Uma variação com este nome já existe"
+            }
+        },
+        "programs": {
+            "created": "Programa criado",
+            "updated": "Programa atualizado",
+            "deleted": "Programa deletado | Programas deletados",
+            "running": "Você não pode deletar enquanto o programa está em execução",
+            "editOnRunning": "Você deve parar o programa para realizar alterações",
+            "exists": "Este nome de programa já existe.",
+            "steps": {
+                "exist": "Esta ação já existe neste programa"
+            },
+            "actionsNotPublished": "Este programa tem uma ação não publicada! | Este programa tem ações não publicadas!"
+        },
+        "rules": {
+            "created": "Regra criada",
+            "updated": "Regra atualizada",
+            "deleted": "Regra deletada | Regras deletadas",
+            "running": "Você não pode deletar enquanto a regra está em execução"
+        },
+        "contentTypes": {
+            "created": "Tipo de conteúdo criado",
+            "updated": "Tipo de conteúdo atualizado",
+            "deleted": "Tipo de conteúdo deletado | Tipos de conteúdo deletados",
+            "default": "Não é possível remover um tipo de conteúdo padrão",
+            "assetDefault": "Ativo padrão não pode ser removido. ({ct})",
+            "maxSize": "O tamanho deve ser maior ou igual ao valor {size}"
+        },
+        "groups": {
+            "created": "Grupo criado",
+            "updated": "Grupo atualizado",
+            "deleted": "Grupo deletado | Grupos deletados"
+        },
+        "assets": {
+            "created": "Ativo criado",
+            "updated": "Ativo atualizado",
+            "deleted": "Ativo deletado | Ativos deletados",
+            "default": "Ativo é padrão em um tipo de conteúdo",
+            "hasAttributes": "Ativo tem campos de atributos personalizados",
+            "Assets Defaults not accept any attribute personalization": "Os ativos padrões não aceitam nenhuma personalização de atributo"
+        }
+    },
+
+    "default": {
+        "termsAndConditions": "Termos e condições",
+        "clickHere": "clique aqui",
+        "yes": "Sim",
+        "no": "Não",
+        "import": "Importar",
+        "export": "Exportar",
+        "clone": "Clone",
+        "download": "Download",
+        "toContentManager": "Ao Gerenciador de Conteúdo",
+        "noData": "Nenhum",
+        "noDataText": "Nenhum dado disponível",
+        "loadingText": "Carregando",
+        "edit": "Editar",
+        "remove": "Deletar",
+        "refresh": "Recarregar",
+        "knowMore": "Saiba Mais",
+        "system": "SISTEMA",
+        "delimiter": "Delimitador",
+        "optional": "opcional",
+        "singular": "Singular",
+        "multiple": "Múltiplos",
+        "selected": "selecionado(a) | selecionados(as)",
+        "items": "item | itens",
+        "databases": "banco de dado | banco de dados",
+        "contactLists": "lista de contato| lista de contatos",
+        "relationalTables": "tabela relacional | tabelas relacionais",
+        "segments": "segmento | segmentos",
+        "fields": "campo | campos",
+        "contacts": "contato | contatos",
+        "webForms": "formulário web | formulários web",
+        "mobile": "app | apps",
+        "sms": "sms | sms's",
+        "domains": "domínio | domínios",
+        "channels": "canal | canais",
+        "contentTypes": "tipo de conteúdo | tipos de conteúdo",
+        "groups": "grupo | grupos",
+        "assets": "ativo | ativos",
+        "delete": {
+            "items": "todos os items | {n} item | {n} itens",
+            "users": "todos os usuários | o usuário {name} | {n} usuários",
+            "apiKeys": "todas as chaves | a chave {name} | {n} chaves",
+            "dashboards": "todos os dashboards | o dashboard {name} | {n} dashboards",
+            "databases": "todos os bancos de dados | o banco de dados {name} | {n} bancos de dados",
+            "contactLists": "todas as listas | a lista de contato {name} | {n} listas de contatos",
+            "relationalTables": "todas as tabelas relacionais | a tabela relacional {name} | {n} tabelas relacionais",
+            "segments": "todos os segments | o segmento {name} | {n} segmentos",
+            "flows": "todos os fluxos | o fluxo {name} | {n} fluxos",
+            "fields": "todos os campos | o campo {name} | {n} campos",
+            "contacts": "todos os contatos | o contato {name} | {n} contatos",
+            "webForms": "todos os formulários web | o formulário web {name} | {n} formulários web",
+            "apps": "todos os apps | o app {name} | {n} apps",
+            "emails": "todos os emails | o email {name} | {n} emails",
+            "push": "todas as push's | a push {name} | {n} push's",
+            "sms": "todas as sms's | a sms {name} | {n} sms's",
+            "domains": "todos os domínios | o domínio {name} | {n} domínios",
+            "channels": "todos os canais | o canal {name} | {n} canais",
+            "programs": "todos os programas | o programa {name} | {n} programas",
+            "rules": "todas as regras | a regra {name} | {n} regras",
+            "contentTypes": "todos os tipos de conteúdos | o tipo de conteúdo {name} | {n} tipos de conteúdo",
+            "groups": "todos os grupos | o grupo {name} | {n} grupos",
+            "assets": "todos os ativos | o ativo {name} | {n} ativos"
+        },
+        "headers": {
+            "id": "ID",
+            "acceptance": "ACEITAÇÃO",
+            "actions": "AÇÕES",
+            "application": "APPS",
+            "assets": "ATIVOS",
+            "created": "CRIADO EM",
+            "audience": "AUDIÊNCIA",
+            "channel": "CANAL",
+            "contactList": "LISTA DE CONTATOS",
+            "contactSource": "FONTE DOS CONTATOS",
+            "contentType": "TIPO DE CONTEÚDO",
+            "dashboard": "DASHBOARD",
+            "database": "BANCO DE DADOS",
+            "devices": "DISPOSITIVOS",
+            "dimension": "DIMENSÕES",
+            "domain": "DOMÍNIO",
+            "email": "EMAIL",
+            "endDate": "DATA FINAL",
+            "firstName": "NOME",
+            "flow": "FLUXO",
+            "foreignKey": "CHAVE ESTRANGEIRA",
+            "form": "FORMULÁRIO",
+            "format": "FORMATO",
+            "group": "GRUPO",
+            "item": "ITEM",
+            "key": "CHAVE",
+            "label": "TÍTULO",
+            "lastName": "SOBRENOME",
+            "lookupKey": "CHAVE",
+            "message": "MENSAGEM",
+            "metric": "MÉTRICA",
+            "modified": "DATA DE MODIFICAÇÃO",
+            "name": "NOME",
+            "owner": "RESPONSÁVEL",
+            "platforms": "PLATAFORMAS",
+            "push": "PUSH",
+            "related": "RELACIONADO A",
+            "relationalTable": "TABELA RELACIONAL",
+            "reviews": "AVALIAÇÕES",
+            "rows": "LINHAS",
+            "program": "PROGRAMA",
+            "rule": "PERSONALIZAÇÃO",
+            "segment": "SEGMENTOS",
+            "sendAt": "ENVIADO EM",
+            "sendDate": "DATA DE ENVIO",
+            "sendHour": "HORA DE ENVIO",
+            "size": "TAMANHO",
+            "sizeLimit": "TAMANHO LIMITE",
+            "sms": "SMS",
+            "startDate": "DATA INICIAL",
+            "status": "STATUS",
+            "timezone": "FUSO HORÁRIO",
+            "type": "TIPO",
+            "updated": "ATUALIZADO EM"
+        },
+        "status": {
+            "title": "Estado",
+            "DRAFT": "Rascunho",
+            "PUBLISHED": "Publicado",
+            "SCHEDULED": "Agendado",
+            "WAITING": "Aguardando",
+            "SENT": "Enviado",
+            "SENT_SUCCESS": "Enviado com Sucesso",
+            "DELIVERED_SUCCESS": "Entregue com Sucesso",
+            "EXPIRED": "Expirado",
+            "CARRIER_COMMUNICATION_ERROR": "",
+            "REJECTED_BY_CARRIER": "",
+            "NOT_DELIVERED": "Não Entregue",
+            "NO_CREDIT": "Sem crédito",
+            "INVALID_DESTINATION_NUMBER": "Número de destino inválido",
+            "BLACKLISTED": "",
+            "DESTINATION_BLOCKED_BY_OPTOUT": "Bloqueado por optout",
+            "DESTINATION_MESSAGE_LIMIT_REACHED": "",
+            "INVALID_MESSAGE_TEXT": "",
+            "INTERNAL_ERROR": "Erro interno",
+            "ACTIVE": "Ativo",
+            "INACTIVE": "Inativo",
+            "RUNNING": "Executando",
+            "PAUSED": "Parado",
+            "PERMANENT": "Permanente",
+            "COMPLETED": "Completo",
+            "ERROR": "Erro",
+            "VERIFIED": "Verificado",
+            "NOT_VERIFIED": "Não Verificado",
+            "TEMPLATE": "Modelo",
+            "OTHER": "Outro"
+        },
+        "sources": {
+            "database": "Banco de dados",
+            "segment": "Segmento",
+            "contactList": "Lista de contatos",
+            "relationalTable": "Tabela relacional",
+            "behavior": "Comportamento",
+            "mobile": "Aplicativo",
+            "views": "Visões"
+        },
+        "periods": {
+            "custom": "Personalizado",
+            "today": "Hoje",
+            "yesterday": "Ontem",
+            "lastWeek": "Última Semana",
+            "lastMonth": "Último Mês",
+            "lastSevenDays": "Últimos 7 Dias",
+            "lastTenDays": "Últimos 10 Dias",
+            "lastFifteenDays": "Últimos 15 Dias",
+            "lastThirtyDays": "Últimos 30 Dias"
+        },
+        "timeConditions": {
+            "after": "DEPOIS",
+            "before": "ANTES",
+            "between": "ENTRE",
+            "date": "DATA ESPECÍFICA",
+            "today": "HOJE"
+        },
+        "frequency": {
+            "label": "Frequência",
+            "select": "Selecione uma frequência",
+            "1": "Cada Hora",
+            "2": "Diariamente",
+            "3": "Semanalmente",
+            "4": "Mensalmente"
+        },
+        "weekDays": {
+            "label": "Dias da semana",
+            "select": "Selecione os dias da semana",
+            "0": "Domingo",
+            "1": "Segunda-feira",
+            "2": "Terça-feira",
+            "3": "Quarta-feira",
+            "4": "Quinta-feira",
+            "5": "Sexta-feira",
+            "6": "Sábado"
+        },
+        "gender": {
+            "male": "Masculino",
+            "female": "Feminino",
+            "notApplicable": "Não Aplicável"
+        },
+        "showResults": "Mostrando {n} de {total}",
+        "select": "Selecione"
+    },
+
+    "welcome": "Bem-vindo a Header DX",
+    "loggingOff": "Saindo",
+
+    "auth": {
+        "signUpMessage": "Não tem uma conta?",
+        "signUpBtn": "Cadastre-se",
+        "title": "Fãs de futebol conectados antes, durante e depois das partidas",
+        "subtitle": "Colete, processe e ative milhões de dados sobre ventiladores em tempo real para criar uma experiência perfeita para cada cliente."
+    },
+
+    "login": {
+        "welcome": "Faça login com o seu email",
+        "privacy": "Política de Privacidade | Termos e Condições",
+        "form": {
+            "email": "exemplo@headerinteractive.com",
+            "password": "Senha*",
+            "remember": "Lembrar-me",
+            "recoveryPassword": "Esqueceu sua senha?",
+            "login": "Login",
+            "error": "Falha no login. Tente novamente."
+        },
+        "dialog": {
+            "title": "Esqueceu sua senha?",
+            "haveAccount": "Não tem uma conta?",
+            "linkHaveAccount": "Registre-se e teste gratuitamente",
+            "alredyHaveAccount": "Já tenho uma conta",
+            "message": "Digite o seu e-mail",
+            "form": {
+                "email": "E-mail",
+                "send": "Enviar",
+                "cancel": "Cancelar"
+            }
+        }
+    },
+
+    "signUp": {
+        "step1": {
+            "btnFacebook": "Acessar com Facebook",
+            "title": "Transforme seus dados em insights e ações hiper-personalizadas",
+            "subTitle": "Inscreva-se hoje e ganhe R$ 100 para testar",
+            "protectData": "Seus dados estão protegidos com a gente"
+        },
+        "title": "Teste a Header DX de graça",
+        "subTitle": "Cadastre-se e ganhe $100 para experimentar os nossos produtos",
+        "form": {
+            "firstName": "Primeiro Nome",
+            "lastName": "Ultimo Nome",
+            "email": "exemplo@headerinteractive.com",
+            "organization": "Organização",
+            "password": "Senha*",
+            "timezone": "Fuso horário",
+            "country": "País",
+            "notifications": "Aceito receber e-mails, sms, notificações e lembretes de produtos e serviços Header Interactive.",
+            "terms": "Eu aceito os",
+            "cancel": "Cancelar",
+            "save": "Salvar"
+        },
+        "notice": "Ao clicar em 'salvar', você concorda que seus dados pessoais serão processados ​​de acordo com nossa Política de Privacidade"
+    },
+
+    "Auth": {
+        "signUp": {
+            "bigData": "BIG DATA",
+            "textBigData": "Seu ambiente de big data dedicado",
+            "hiperPersonalizacao": "HIPER-PERSONALIZAÇÃO",
+            "textHiperPersonalizacao": "Experiências únicas no online e in-store",
+            "trigger": "TRIGGERS",
+            "textTrigger": "Dispare milhares de interações baseadas em comportamentos",
+            "analytics": "ANALYTICS",
+            "textAnalytics": "Obtenha Insights em tempo real",
+            "shopBack": "SHOPBACK",
+            "textShopBack": "Carrinho Abandonado Integrado",
+            "segmentacao": "SEGMENTAÇÃO",
+            "textSegmentacao": "Crie audiências precisas para suas ações",
+            "subTitle": "POWERING COMPANIES IN LATAM"
+        },
+        "verifyEmail": {
+            "title": "Digital Transformation as fully managed cloud service",
+            "list": {
+                "dataDriven": "DATA-DRIVEN",
+                "textDataDriven": "E-mail e mensagens de texto sobre produtos e serviços",
+                "highlyAvailable": "HIGHLY  AVAILABLE",
+                "textHighlyAvailable": "E-mail e mensagens de texto sobre produtos e serviços",
+                "secure": "SECURE",
+                "textSecure": "E-mail e mensagens de texto sobre produtos e serviços "
+            }
+        }
+    },
+
+    "LoginSide": {
+        "title": "Descubra a nova era do digital",
+        "subTitle": "A fonte do botão é Roboto Medium, uma fonte TrueType. Para instalar, primeiro faça o download da fonte Roboto e descompacte o pacote de download. No Mac, basta clicar duas vezes em Roboto-Medium.ttf, depois clicar em Instalar fonte."
+    },
+
+    "VerifyEmail": {
+        "step1": {
+            "title": "Obrigado",
+            "subTitle": "Valide a sua conta HEADER",
+            "checkEmail": "Por favor, verifique sua caixa de entrada para um e-mail de confirmação e clique no link para confirmar o seu endereço de e-mail",
+            "resend": "Enviar novamente"
+        },
+        "step2": {
+            "title": "Sua conta foi ativada com sucesso",
+            "subTitle": "Você será redirecionado para a página de login do HEADER DX ",
+            "loginPage": "Pagina de login"
+        }
+    },
+
+    "forgotPassword": {
+        "welcome": "Bem vindo a Header DX",
+        "messageForgotPassword": "Esqueceu a senha",
+        "form": {
+            "reset": "Resetar senha",
+            "back": "Voltar"
+        }
+    },
+
+    "verifyEmail": {
+        "title": "verifique seu e-mail",
+        "message": "Por favor verifique a sua caixa de entrada para um e-mail de confirmação e click no link para confirmar o seu endereço de e-mail",
+        "resend": "Enviar novamente",
+        "confirm": "Confirmar"
+    },
+
+    "appbar": {
+        "toolbarCompanies": {
+            "settings": "Configurações",
+            "subheader": "OUTRAS INSTÂNCIAS",
+            "seeAll": "Ver todas",
+            "add": "NOVA INSTÂNCIA"
+        },
+
+        "toolbarSupport": {
+            "support": "Suporte",
+            "docs": "Documentação",
+            "userGuide": "Manual do usuário"
+        },
+
+        "toolbarDownloads": {
+            "title": "Downloads",
+            "clearAll": "LIMPAR TUDO",
+            "more": "MAIS"
+        },
+
+        "toolbarNotifications": {
+            "title": "Notificatições",
+            "clearAll": "LIMPAR TUDO",
+            "more": "MAIS"
+        },
+
+        "toolbarUser": {
+            "settings": "Perfil & Configurações",
+            "currentPassword": "Senha Atual",
+            "newPassword": "Nova Senha",
+            "confirmPassword": "Confirmar Senha",
+            "changePassword": "Alterar Senha",
+            "changeLanguage": "Alterar Idioma",
+            "signOut": "SAIR"
+        }
+    },
+
+    "export": {
+        "started": "Exportar {file} iniciado",
+        "completed": "Exportar {file} completo"
+    },
+
+    "downloads": {
+        "failed": "Falha ao fazer o download",
+        "starting": "Iniciando o download do arquivo",
+        "completed": "Download do arquivo completo",
+        "onlyOwnerCanDownload": "Apenas o responsável pode fazer o download ou exportar"
+    },
+
+    "notifications": {
+        "download": {
+            "started": "Download {item} iniciado",
+            "completed": "Download {item} concluído"
+        },
+        "toCM": {
+            "started": "Exportação {item} para o gerenciador de conteúdo iniciado",
+            "completed": "Exportação {item} para o gerenciador de conteúdo concluído"
+        }
+    },
+
+    "menus": {
+        "new": "Novo",
+        "DataAnalytics": {
+            "name": "Análise de dados",
+            "children": {
+                "Overview": "Visão Geral",
+                "RealTime": "Tempo Real",
+                "TargetAudience": "Público-alvo",
+                "Dashboards": "Dashboards"
+            }
+        },
+
+        "InformationManagement": {
+            "name": "Gerenciamento da Informação",
+            "children": {
+                "DataEngineering": "Engenharia de Dados",
+                "Databases": "Bancos de Dados",
+                "ContactLists": "Listas de Contatos",
+                "RelationalTables": "Tabelas Relacionais",
+                "Segments": "Segmentos",
+                "Compliance": "Conformidade"
+            }
+        },
+
+        "ExperiencePlanning": {
+            "name": "Planejamento da Experiência",
+            "children": {
+                "JourneyDesigner": "Construtor de Jornada",
+                "Scoring": "Pontuação"
+            }
+        },
+
+        "CustomerEngagement": {
+            "name": "Engajamento do Cliente",
+            "children": {
+                "Web": "Web",
+                "Apps": "Apps",
+                "Email": "E-mail",
+                "Push": "Push",
+                "SMS": "SMS",
+                "Social": "Social",
+                "Whatsapp": "Whatsapp",
+                "Geolocation": "Geolocalização",
+                "Weather": "Clima",
+                "Experiments": "Experimentos",
+                "Automation": "Automação",
+                "Personalization": "Personalização",
+                "Alerts": "Alertas"
+            }
+        },
+
+        "ContentManager": {
+            "name": "Gerenciador de Conteúdo",
+            "children": {
+                "ContentTypes": "Tipos de Conteúdos",
+                "Assets": "Ativos",
+                "Groups": "Grupos"
+            }
+        },
+
+        "Integrations": {
+            "name": "Integrações",
+            "children": {
+                "Connections": "Conexões",
+                "Endpoints": "Canais",
+                "Audiences": "Audiências",
+                "EventStreams": "Fluxo de Eventos"
+            }
+        },
+
+        "Media": {
+            "name": "Mídia",
+            "children": {
+                "AudienceExchange": "Audience Exchange",
+                "Campaigns": "Campanhas"
+            }
+        }
+    },
+
+    "chooseCompany": {
+        "title": "Escolha uma companhia",
+        "action": "Nova Companhia",
+        "menuEmpty": "Você não tem permissão, por favor contate o administrador"
+    },
+
+    "createCompany": {
+        "header": "Criador de Instância",
+        "logout": "Sair",
+        "steps": {
+            "one": {
+                "title": "Conte-nos sobre sua empresa",
+                "companyName": "Nome da empresa",
+                "displayName": "Nome para Exibição",
+                "industry": "Indústria",
+                "domain": "Domínio"
+            },
+
+            "two": {
+                "title": "Onde fica localizada?",
+                "country": "País",
+                "currency": "Moeda"
+            },
+
+            "three": {
+                "title": "Termos de Serviços",
+                "accept": "Eu aceito os Termos de Serviços"
+            }
+        },
+        "creatingMessage": "Criando sua Instância"
+    },
+
+    "companySettings": {
+        "account": {
+            "title": "Conta",
+            "instanceID": "ID da Instância",
+            "shortName": "NOME ABREVIADO",
+            "instanceOwner": "RESPONSÁVEL DA INSTÂNCIA",
+            "companyInformation": "INFORMAÇÃO DA COMPANIA",
+            "companyName": "Nome da Compania",
+            "industry": "Indústria",
+            "mailInformation": "INFORMAÇÂO DE CORREIO",
+            "billingAddress": {
+                "label": "Endereço de Cobrança",
+                "placeholder": "Entre com o endereço"
+            },
+            "compl": {
+                "label": "Complemento",
+                "placeholder": "Entre com o complemento"
+            },
+            "neighborhood": {
+                "label": "Bairro",
+                "placeholder": "Entre com o Bairro"
+            },
+            "city": {
+                "label": "Cidade",
+                "placeholder": "Entre com a cidade"
+            },
+            "state": {
+                "label": "Estado",
+                "placeholder": "Entre com o estado"
+            },
+            "country": {
+                "label": "País",
+                "placeholder": "Selecione o país"
+            },
+            "zipcode": {
+                "label": "Código postal",
+                "placeholder": "Entre com o cep"
+            },
+            "legalInformation": "INFORMAÇÃO LEGAL",
+            "corporateName": "Razão Social",
+            "fantasyName": "Nome Fantasia",
+            "cnpj": "CNPJ",
+            "taxInformation": "Informação Tributária",
+            "taxPayer": "Contribuinte de ICMS",
+            "noTaxPayer": "Não Contribuinte",
+            "taxFree": "Isento",
+            "stateRegistration": "Inscrição Estadual",
+            "contactInformation": "INFORMAÇÃO DE CONTATO",
+            "primaryContact": "Contato Primário",
+            "firstName": "Nome",
+            "lastName": "Sobrenome",
+            "email": "E-mail",
+            "mobile": "Celular"
+        },
+        "apiKeys": {
+            "title": "Chaves de API",
+            "newApiKey": "Nova chave de API",
+            "create": {
+                "title": "Nova chave de API",
+                "applicationName": {
+                    "label": "Nome da Aplicação",
+                    "placeholder": "Entre com o nome"
+                },
+                "related": {
+                    "label": "Relacionado a",
+                    "placeholder": "Selecione um produto"
+                },
+                "permission": {
+                    "label": "Nível de Permissão",
+                    "read": "Leitura",
+                    "write": "Escrita",
+                    "readWrite": "Leitura & Escrita"
+                },
+                "description": {
+                    "label": "Descrição",
+                    "placeholder": "Escreva uma descrição"
+                }
+            }
+        },
+        "userPermissions": {
+            "title": "Usuários & Permissões",
+            "newUser": "Novo Usuário",
+            "create": {
+                "title": "Novo Usuário",
+                "firstName": "Nome",
+                "lastName": "Sobrenome",
+                "email": "E-mail",
+                "password": "Senha",
+                "role": "Cargo",
+                "timezone": "Fuso Horário",
+                "country": "País",
+                "status": "Status"
+            },
+            "edit": {
+                "title": "Editar Usuário",
+                "changePassword": "Alterar Senha",
+                "newPassword": "New Password"
+            },
+            "menus": {
+                "title": "Menus",
+                "user": "Usuário",
+                "email": "E-mail",
+                "firstName": "Nome",
+                "lastName": "Sobrenome",
+                "disabled": "Bloqueados",
+                "enabled": "Liberados",
+                "clickTo": {
+                    "enable": "(Click para liberar)",
+                    "disable": "(Click para bloquear)"
+                }
+            }
+        }
+    },
+
+    "users": {
+        "settings": "Configurações",
+        "profile": {
+            "title": "Perfil",
+            "personal": "INFORMAÇÃO PESSOAL",
+            "language": "IDIOMA PREFERIDO",
+            "timezone": "FUSO HORÁRIO",
+            "contactInformation": "INFORMAÇÃO DE CONTATO",
+            "mailInformation": "INFORMAÇÃO DE CORREIO",
+            "firstName": {
+                "label": "Nome",
+                "placeholder": "Add seu nome"
+            },
+            "lastName": {
+                "label": "Sobrenome",
+                "placeholder": "Add seu sobrenome"
+            },
+            "gender": {
+                "label": "Gênero",
+                "placeholder": "Selecione o gênero"
+            },
+            "birthday": {
+                "label": "Data de Nascimento",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "currentEmail": {
+                "label": "Email",
+                "placeholder": "Entre com o email"
+            },
+            "mobile": {
+                "label": "Celular",
+                "placeholder": "Entre com o número do celular"
+            },
+            "alternativeNumber": {
+                "label": "Número alternativo",
+                "placeholder": "Entre com o número"
+            },
+            "address": {
+                "label": "Endereço",
+                "placeholder": "Entre com o endereço"
+            },
+            "compl": {
+                "label": "Complemento",
+                "placeholder": "Entre com o complemento"
+            },
+            "neighborhood": {
+                "label": "Bairro",
+                "placeholder": "Entre com o bairro"
+            },
+            "city": {
+                "label": "Cidade",
+                "placeholder": "Entre com a cidade"
+            },
+            "state": {
+                "label": "Estado",
+                "placeholder": "Estre com o estado"
+            },
+            "country": {
+                "label": "País",
+                "placeholder": "Selecione o país"
+            },
+            "zipcode": {
+                "label": "Código postal",
+                "placeholder": "Entre com o cep"
+            }
+        },
+        "account": {
+            "title": "Alterar Senha",
+            "userInformation": "INFORMAÇÃO DO USUÁRIO",
+            "currentPassword": "Senha Atual",
+            "newPassword": "Nova Senha",
+            "confirmPassword": "Confirmar Senha",
+            "linkedAccount": "CONTAS",
+            "lastLogin": "ÚLTIMO ACESSO"
+        },
+        "activity": {
+            "title": "Atividade"
+        },
+        "privacy": {
+            "title": "Privacy Policy  |  Terms & Conditions"
+        },
+        "payment": {
+            "title": "Pagamento"
+        },
+        "billing": {
+            "title": "Cobranças"
+        },
+        "notifications": {
+            "title": "Notificações"
+        },
+        "display": {
+            "title": "Aparência"
+        },
+        "about": {
+            "title": "Sobre",
+            "facebook": "Visite o nosso Facebook",
+            "instagram": "Visite o nosso Instagram",
+            "twitter": "Visite o nosso Twitter",
+            "site": "Visite o nosso website",
+            "version": "Versão"
+        },
+        "custom": {
+            "title": "Configurações de Perfil de Clientes"
+        },
+        "details": {
+            "contact": "CONTATO",
+            "phone": "Telefone",
+            "email": "E-mail"
+        }
+    },
+
+    "overview": {
+        "title": "Visão Geral",
+        "cards": {
+            "databaseContacts": "Contatos do banco de dados",
+            "identifiedContacts": "Contatos Identificados",
+            "capturedDevices": "Dispositivos Capturados",
+            "behaviors": "Comportamentos"
+        }
+    },
+
+    "dashboard": {
+        "title": "Dashboards",
+        "create": {
+            "title": "Novo Dashboard",
+            "addWidget": "Add Widget",
+            "editWidget": "Editar Widget",
+            "widget": {
+                "title": "Novo widget",
+                "name": {
+                    "label": "Nome",
+                    "placeholder": "Insira um nome para o seu widget"
+                },
+                "widgetStyle": {
+                    "label": "Estilo",
+                    "placeholder": "Escolha um estilo"
+                },
+                "dataSource": {
+                    "label": "Fonte de Dados",
+                    "placeholder": "Escolha sua fonte de dados"
+                },
+                "fieldVariable": {
+                    "label": "Campo / Variável",
+                    "placeholder": "Escolha uma variável"
+                },
+                "operation": {
+                    "label": "Operação",
+                    "placeholder": "Escolha uma operação"
+                },
+                "order": {
+                    "label": "Ordenar por",
+                    "placeholder": "Escolha uma ordenação"
+                },
+                "limit": {
+                    "label": "Limite",
+                    "placeholder": "Escolha um limite",
+                    "no": "Sem Limite"
+                },
+                "allTime": {
+                    "label": "Todo o Período"
+                },
+                "table": {
+                    "formid": "Formulário",
+                    "assetid": "Conteúdo",
+                    "pageurl": "URL da Página",
+                    "productname": "Nome do Produto",
+                    "messageid": "Mensagem",
+                    "programid": "Programa",
+                    "destination": "Destino",
+                    "entry": "Entradas"
+                }
+            }
+        },
+        "searches": "Buscas",
+        "cards": {
+            "destinations": {
+                "title": "Destinos Mais Buscados",
+                "subtitle": "Destino"
+            },
+            "dates": {
+                "title": "Datas Mais Buscadas",
+                "subtitle": "Entrada - Saída"
+            },
+            "setup": {
+                "title": "Setups Mais Procurados",
+                "subtitle": "Setup do Quarto"
+            },
+            "nights": {
+                "title": "Buscas Por # Noites",
+                "subtitle": "Noites"
+            },
+            "whereTo": {
+                "title": "Para onde",
+                "method": {
+                    "from": "Origem",
+                    "to": "Destino"
+                },
+                "selectCountry": {
+                    "label": "Escolha o(s) país(es)"
+                },
+                "selectState": {
+                    "label": "Escolha o(s) estado(s)"
+                },
+                "selectCity": {
+                    "label": "Escolha a(s) cidade(s)"
+                },
+                "selectDestination": {
+                    "label": "Escolha o destino"
+                }
+            }
+        }
+    },
+
+    "dataEngineering": {
+        "title": "Engenharia de Dados",
+        "tabs": {
+            "dataRefinery": "Data Refinery",
+            "dataModeling": "Data Modeling"
+        },
+        "create": {
+            "title": "Novo Fluxo",
+            "play": "Iniciar",
+            "running": "Executando Fluxo",
+            "applying": "Aplicando Mudanças",
+            "setDataSource": {
+                "title": "Configure a Fonte de Dados",
+                "selectSource": {
+                    "label": "Fonte de Dados",
+                    "placeholder": "Selecione a fonte de dados"
+                },
+                "saveAs": {
+                    "label": "Salvar Como",
+                    "placeholder": "Entre com o nome"
+                }
+            },
+            "menuJobs": {
+                "column": "Selecione a Coluna",
+                "operations": "Operações",
+                "cleanse": "LIMPAR",
+                "organize": "ORGANIZAR",
+                "cancel": "Cancelar",
+                "apply": "Aplicar"
+            },
+            "refining": "REFINANDO",
+            "saveAs": "SALVAR COMO",
+            "showNextResults": "Mostrar próximos {n} resultados",
+            "steps": {
+                "title": "ETAPAS DO REFINAMENTO"
+            }
+        }
+    },
+
+    "databases": {
+        "title": "Bancos de dados",
+        "create": {
+            "title": "Novo Banco de Dados",
+            "database": "Nome do Banco de Dados",
+            "name": {
+                "label": "Nome do Banco",
+                "placeholder": "Insira um nome"
+            },
+            "category": {
+                "label": "Categoria do Banco",
+                "prod": "Produção",
+                "dev": "Desenvolvimento"
+            },
+            "upload": {
+                "title": "Carregar banco de dados",
+                "label": "Gostaria de fazer o upload de algum dado?",
+                "local": "LOCAL",
+                "selectSource": "Selecione sua fonte de dados",
+                "addToContactList": "Adicionar à lista de contatos",
+                "selectContactList": "Selecione uma lista de contatos",
+                "contentManager": "GESTOR DE CONTEÚDOS",
+                "recurring": "Trabalho Recorrente",
+                "date": "DATA DE INÍCIO",
+                "time": "HORA DE INÍCIO",
+                "day": "Selecione um dia",
+                "hour": "Selecione uma hora"
+            },
+            "dataPreview": {
+                "title": "Pré-visualização de dados",
+                "consistency": "Confirme a consistência",
+                "headers": "Primeira linha contém o nome das colunas",
+                "dateFormat": "Selecione o formato das datas",
+                "selectFormat": "Escolha um"
+            },
+            "mapFields": {
+                "title": "Mapear campos",
+                "label": "Adicionar campo",
+                "name": "Entre com o nome",
+                "type": "Selecione um tipo",
+                "required": "Obrigatório",
+                "key": "Campo chave",
+                "btnAdd": "Add",
+                "from": "DE",
+                "to": "PARA",
+                "database": "BANCO DE DADOS",
+                "select": "Selecione um campo",
+                "personalField": "CAMPO PESSOAL",
+                "missingEmail": "Campo de e-mail ausente",
+                "missingEquivalent": "Algum campo equiivalente está ausente",
+                "missingKeys": "Algum Campo chave está ausente",
+                "namesChanged": "Alguns campos pessoais foram renomeados para evitar conflitos."
+            },
+            "resume": {
+                "title": "Resumo",
+                "label": "Add campo",
+                "name": "Entre com o nome",
+                "type": "Selecione um tipo",
+                "missing": "Ausente",
+                "required": "Obrigatório",
+                "dataPrivacy": "Dados privados",
+                "key": "Campo chave",
+                "btnAdd": "Add",
+                "btnSave": "Salvar",
+                "table": {
+                    "key": "CHAVE",
+                    "name": "NOME",
+                    "type": "TIPO",
+                    "required": "OBRIGATÓRIO",
+                    "default": "VALOR PADRÃO",
+                    "dataPrivacy": "DADOS PRIVADOS"
+                },
+                "dialog": {
+                    "title": "Editar campo"
+                },
+                "invalids": {
+                    "row": "Linhas Inválidas",
+                    "missingEmail": "E-mail ausente",
+                    "email": "E-mail inválido",
+                    "duplicated": "E-mail duplicados"
+                },
+                "hasError": "Existem alguns campos ausentes"
+            },
+            "validate": {
+                "title": "Validar",
+                "DatabaseName": "Nome do Banco de Dados",
+                "RelationalTableName": "Nome da Tabela Relacional",
+                "ContactListName": "Nome da Lista de Contato",
+                "fileName": "Arquivo enviado",
+                "noFile": "Nenhum arquivo enviado",
+                "validRows": "Nenhuma linha válida | {n} Linha valida | {n} Linhas Válidas",
+                "errors": "Nenhum erro | {n} Erro | {n} Errors",
+                "download": "Download do arquivo."
+            }
+        },
+        "view": {
+            "database": "BANDO DE DADOS",
+            "audience": "AUDIÊNCIA",
+            "type": "Tipo",
+            "btnAdd": "Add Novo Contato",
+            "findDuplicates": "Procurar Duplicados",
+            "addToList": "Add à lista",
+            "tabFields": {
+                "name": "Campos",
+                "headers": {
+                    "id": "INDEX",
+                    "name": "NOME DO CAMPO",
+                    "type": "TIPO",
+                    "key": "CHAVE",
+                    "required": "OBRIGATÓRIO",
+                    "default": "VALOR PADRÃO",
+                    "dataPrivacy": "DADOS PRIVADOS"
+                },
+                "add": "Novo Campo",
+                "edit": {
+                    "name": {
+                        "label": "Nome"
+                    },
+                    "type": {
+                        "label": "Tipo",
+                        "placeholder": "Selecione o tipo"
+                    },
+                    "required": "Obrigatório",
+                    "key": "Chave",
+                    "dataPrivacy": "Dados privados",
+                    "commentary": {
+                        "label": "Comentário sobre privacidade de dados",
+                        "placeholder": "Escreva comentários"
+                    }
+                }
+            },
+            "tabContacts": {
+                "name": "Contatos",
+                "add": "Novo Contato",
+                "new": {
+                    "insert": "Insira",
+                    "here": "aqui"
+                },
+                "findDuplicates": {
+                    "label": "Procurar Duplicados",
+                    "placeholder": "Escolha um campo"
+                },
+                "addToList": {
+                    "title": "Add à lista",
+                    "selected": "contato(s) selecionado(s)",
+                    "label": "A qual lista você gostaria de adicionar os contatos?",
+                    "placeholder": "Selecione uma lista",
+                    "reason": "Motivo"
+                }
+            },
+            "tabSegments": {
+                "name": "Segmentos",
+                "add": "Novo Segmento",
+                "edit": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "related": {
+                        "label": "Banco de Dados Relacionado",
+                        "placeholder": "Banco de dados"
+                    }
+                }
+            },
+            "tabContactLists": {
+                "name": "Listas de Contatos",
+                "add": "Nova Lista de Contatos",
+                "types": {
+                    "contact": "Contatos",
+                    "seed": "Seed",
+                    "suppression": "Supressão",
+                    "test": "Teste"
+                },
+                "edit": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "type": {
+                        "label": "Tipo",
+                        "placeholder": "Selecione um tipo"
+                    },
+                    "related": {
+                        "label": "Banco de dados Relacionado",
+                        "placeholder": "Banco de Dados"
+                    }
+                }
+            },
+            "tabWebForms": {
+                "name": "Formulários Web",
+                "add": "Novo Formulário",
+                "types": {
+                    "optIn": "Opt-In",
+                    "optOut": "Opt-Out",
+                    "standard": "Padrão"
+                },
+                "edit": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "type": {
+                        "label": "Tipo",
+                        "placeholder": "Selecione um tipo"
+                    },
+                    "domain": {
+                        "label": "Domínio Relacionado",
+                        "placeholder": "Selecione um domínio"
+                    },
+                    "related": {
+                        "label": "Bando de Dados Relacionado",
+                        "placeholder": "Banco de Dados"
+                    }
+                }
+            },
+            "tabRelationalTables": {
+                "name": "Tabelas Relacionais",
+                "add": "Nova Tabela Relacional",
+                "edit": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "related": {
+                        "label": "Banco de Dados Relacionado",
+                        "placeholder": "Banco de Dados"
+                    },
+                    "type": {
+                        "label": "Tipo",
+                        "placeholder": "Selecione um tipo"
+                    },
+                    "keys": {
+                        "label": "Campo chave"
+                    },
+                    "foreign": {
+                        "label": "Chaves estrangerias"
+                    }
+                }
+            },
+            "tabMobile": {
+                "name": "Aplicativos",
+                "add": "Novo App",
+                "edit": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "related": {
+                        "label": "Banco de Dados Relacionado",
+                        "placeholder": "Banco de Dados"
+                    }
+                }
+            }
+        },
+        "import": {
+            "title": "Importar Dados",
+            "steps": {
+                "one": {
+                    "title": "O que você gostaria de fazer?",
+                    "overwrited": "Substituir todos os dados existentes",
+                    "insert": "Adicionar apenas novos contatos",
+                    "append": "Adicione novos contatos e atualize os campos de contatos existentes"
+                }
+            }
+        }
+    },
+
+    "contactLists": {
+        "title": "Listas de Contatos",
+        "types": {
+            "contact": "Contatos",
+            "seed": "Seed",
+            "suppression": "Supressão",
+            "test": "Teste"
+        },
+        "edit": {
+            "title": "Editar Lista de Contato",
+            "name": {
+                "label": "Nome",
+                "placeholder": "Nome"
+            },
+            "type": {
+                "label": "Tipo",
+                "placeholder": "Selecione um tipo"
+            },
+            "related": {
+                "label": "Banco de Dados Relacionado",
+                "placeholder": "Banco de Dados"
+            }
+        },
+        "create": {
+            "title": "Nova Lista de Contatos",
+            "steps": {
+                "one": {
+                    "name": "Nome da Lista",
+                    "insertName": "Insira o nome da lista",
+                    "relatedDatabase": "Banco de Dados Relacionado",
+                    "selectDatabase": "Selecione o banco de dados",
+                    "listType": "Tipo da Lista"
+                },
+                "two": {
+                    "title": "Add Contatos",
+                    "btnAdd": "Add",
+                    "added": "{n} contato será adicionado | {n} contatos serão adicionados"
+                }
+            }
+        },
+        "view": {
+            "type": "Tipo",
+            "removeFrom": "Remover da lista",
+            "removeFromText": "Tem certeza de que deseja remover este contato {contact} desta lista | Tem certeza de que deseja remover {n} contatos desta lista",
+            "btnAdd": "Add à lista",
+            "audience": "AUDIÊNCIA",
+            "edit": {
+                "title": "Editar contato suprimido",
+                "pendingFields": "Campos pendentes",
+                "phone": "MOBILE"
+            }
+        },
+        "suppression": {
+            "title": "Lista de Suprimidos",
+            "headers": {
+                "id": "ID",
+                "name": "NOME",
+                "email": "E-MAIL",
+                "mobile": "TELEFONE",
+                "pendingFields": "VALIDAÇÃO PENDENTE"
+            },
+            "missingReason": "Falta selecionar o motivo"
+        }
+    },
+
+    "relationalTables": {
+        "title": "Tabelas Relacionais",
+        "types": {
+            "sentiment": "Sentimento",
+            "relational": "Tabela Relacional"
+        },
+        "create": {
+            "title": "Nova Tabela Relacional",
+            "name": {
+                "label": "Nome",
+                "placeholder": "Nome"
+            },
+            "type": {
+                "label": "Tipo",
+                "placeholder": "Selecione um tipo"
+            },
+            "related": {
+                "label": "Banco de Dados Relacionado",
+                "placeholder": "Bando de Dados"
+            },
+            "upload": {
+                "title": "Carregue sua tabela"
+            },
+            "mapTypes": {
+                "title": "Definir tipos de campo",
+                "select": "Selecione o tipo do campo",
+                "autoIncrement": "Coluna de incremento automático",
+                "missingTypes": "Tipo de campo ausente"
+            },
+            "mapKeys": {
+                "title": "Definir campos chaves",
+                "setKey": {
+                    "label": "Definir chave",
+                    "placeholder": "Selecione um campo chave"
+                },
+                "keyFields": "CAMPOS CHAVE",
+                "message": "Você pode definir múltiplos campos chave",
+                "btnAdd": "Add"
+            },
+            "mapForeign": {
+                "title": "Definir chaves estrangeiras",
+                "setKey": {
+                    "label": "Definir chave",
+                    "placeholder": "Selecione um campo chave"
+                },
+                "message": "Chave estrangeira deve ser exclusiva e existir nas duas fontes de dados",
+                "foreignKeys": "CHAVES ESTRANGEIRAS",
+                "btnSet": "Definir"
+            },
+            "preview": {
+                "title": "Pré-visualização da tabela",
+                "table": "NOME",
+                "related": "BANCO DE DADOS RELACIONADO",
+                "file": "ARQUIVO ENVIADO",
+                "lookup_keys": "CAMPOS CHAVES",
+                "foreign_keys": "CHAVES ESTRANGEIRAS",
+                "message": "Você não poderá fazer alterações"
+            }
+        },
+        "view": {
+            "audience": "AUDIÊNCIA"
+        },
+        "edit": {
+            "name": {
+                "label": "Nome",
+                "placeholder": "Nome"
+            },
+            "related": {
+                "label": "Banco de Dados Relacionado",
+                "placeholder": "Banco de dados"
+            },
+            "type": {
+                "label": "Tipo",
+                "placeholder": "Selecione um tipo"
+            },
+            "keys": {
+                "label": "Campo chave"
+            },
+            "foreign": {
+                "label": "Chaves estrangeiras"
+            }
+        }
+    },
+
+    "segments": {
+        "title": "Segmentos",
+        "view": {
+            "audience": "AUDIÊNCIA",
+            "related": "RELACIONADO À",
+            "run": "EXECUTAR",
+            "updated": "ATUALIZADO EM",
+            "addToList": "Add à lista"
+        },
+        "create": {
+            "title": "Novo Segmento",
+            "steps": {
+                "one": {
+                    "name": "Nome",
+                    "insertName": "Insira o nome",
+                    "relatedDatabase": "Banco de Dados Relacionado",
+                    "selectDatabase": "Banco de Dados"
+                },
+                "two": {
+                    "title": "Configure o Segmento",
+                    "name": "NOME",
+                    "related": "RELACIONADO À",
+                    "btnAdd": "Add Novo Grupo",
+                    "group": "GRUPO",
+                    "selectSource": {
+                        "label": "SELECIONE A FONTE DE DADOS",
+                        "placeholder": "Fonte de Dados",
+                        "choose": "Escolha"
+                    },
+                    "selectField": "Campo",
+                    "selectPlatforms": "Plataformas",
+                    "newCondition": "Add Condição",
+                    "anotherPlatform": "Add Plataforma",
+                    "room": "Quarto",
+                    "adults": "Adultos",
+                    "children": "Crianças",
+                    "childrenAge": "Idade das crianças",
+                    "quantity": "Qnt",
+                    "timeframe": "Período",
+                    "betweenGroup": "CONDIÇÃO ENTRE"
+                }
+            },
+            "saveAndRun": "Salvar & Executar"
+        }
+    },
+
+    "compliance": {
+        "title": "Conformidade",
+        "tabs": {
+            "contracts": "Contratos",
+            "dataPrivacy": "Dados Privados"
+        },
+        "create": {
+            "title": "Novo Fluxo"
+        }
+    },
+
+    "websites": {
+        "title": "Websites",
+        "VERIFIED": "Verificado",
+        "NOT_VERIFIED": "Não Verificado",
+        "trackCode": "Código de rastreio",
+        "dnsRecords": "Registro DNS",
+        "view": {
+            "navigationPath": "Websites",
+            "tabs": {
+                "webforms": "Webforms",
+                "tagManager": "Tag Manager"
+            }
+        },
+        "domain": {
+            "create": {
+                "title": "Novo Domínio",
+                "domain": "Domínio",
+                "usedFor": "Você irá usá-lo para",
+                "promotional": "Promocional",
+                "transactional": "Transacional"
+            },
+            "edit": {
+                "title": "Editar Domínio",
+                "usedFor": "Você usá para"
+            },
+            "verify": {
+                "header": "Verifique seu website",
+                "tag": "Copie o código abaixo e cole-o em todas as páginas do seu site. Cole-o o mais alto possível no <head> da página:",
+                "later": "Verificar Depois",
+                "now": "Verificar Agora"
+            },
+            "dnsRecords": {
+                "title": "Registros DNS",
+                "tag": "Para habilitar a assinatura DKIM para seu domínio, os registros abaixo devem ser inseridos em suas configurações de DNS. Será automaticamente detectado a presença desses registros e permitirá a assinatura DKIM nesse momento. Observe que a verificação dessas configurações pode levar até 72 horas.",
+                "label": "Para criar os registros CNAME, use o seguinte modelo:",
+                "dkim": {
+                    "label": "DKIM Verificação de Status",
+                    "PENDING": {
+                        "message": "aguardando verificação do remetente",
+                        "status": "verificação pendente"
+                    },
+                    "SUCCESS": {
+                        "message": "waiting on sender verification",
+                        "status": "success verification"
+                    },
+                    "FAILED": {
+                        "message": "waiting on sender verification",
+                        "status": "failed verification"
+                    },
+                    "TEMPORARY_FAILURE": {
+                        "message": "waiting on sender verification",
+                        "status": "temporary failed verification"
+                    },
+                    "NOT_STARTED": {
+                        "message": "waiting on sender verification",
+                        "status": "not started verification"
+                    }
+                },
+                "name": "Nome",
+                "type": "Tipo",
+                "value": "Valor"
+            },
+            "type": {
+                "MAIN": "Principal",
+                "PROMOTIONAL": "Promocional",
+                "TRANSACTIONAL": "Transacional"
+            }
+        },
+        "form": {
+            "title": "WebForm",
+            "create": {
+                "title": "Novo Form",
+                "tabs": {
+                    "editor": "Editor",
+                    "code": "Código"
+                },
+                "selectType": {
+                    "label": "Tipo",
+                    "placeholder": "Selecione o tipo do form"
+                },
+                "selectRelated": {
+                    "label": "Relacionado a",
+                    "placeholder": "Selecione uma base de dados"
+                },
+                "generateCode": {
+                    "label": "Gerar código como",
+                    "placeholder": "Selecione o tipo"
+                },
+                "showFieldLabel": "Show Field Label",
+                "showPlaceholder": "Show Placeholder",
+                "fields": {
+                    "title": "CAMPOS DISPONÍVEIS",
+                    "database": "BANCO DE DADOS",
+                    "relationalTable": "TABELA RELACIONAL | TABELAS RELACIONAIS"
+                },
+                "visibleFields": {
+                    "title": "CAMPOS VISÍVEIS",
+                    "dropField": "Solte o elemento aqui para adicionar"
+                },
+                "hiddenFields": {
+                    "title": "CAMPOS OCULTOS"
+                },
+                "editField": {
+                    "title": "EDITAR CAMPO",
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Entre com o nome"
+                    },
+                    "alias": {
+                        "label": "Apelido",
+                        "placeholder": "Entre com o apelido"
+                    },
+                    "htmlType": {
+                        "label": "Tipo no HTML",
+                        "placeholder": "Escolha o tipo no HTML"
+                    },
+                    "value": {
+                        "label": "Valor",
+                        "placeholder": "Entre com o valor"
+                    },
+                    "required": {
+                        "label": "Obrigatório"
+                    },
+                    "visible": {
+                        "label": "Visível"
+                    }
+                },
+                "contactLists": {
+                    "title": "LISTA DE CONTATOS"
+                }
+            }
+        }
+    },
+
+    "apps": {
+        "title": "Apps",
+        "create": {
+            "title": "Novo App",
+            "name": {
+                "label": "Nome do Aplicativo",
+                "placeholder": "Entre com o nome"
+            },
+            "related": {
+                "label": "Relacionado a",
+                "placeholder": "Selecione uma base de dados"
+            },
+            "certificate": "Certificado (.p12)",
+            "label": "Selecione uma plataforma e forneça as credenciais do provedor de serviços de notificação (FCM / APNs) obtidas para o seu aplicativo.",
+            "platforms": {
+                "configure": "Configurar",
+                "configured": "Configurado",
+                "remove": "Remover",
+                "name": {
+                    "android": "Android",
+                    "ios": "IOS",
+                    "chrome": "Chrome",
+                    "chromeExt": "Aplicativos e extensões do Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari"
+                },
+                "description": {
+                    "android": "Configure o serviço com credenciais FCM obtidas para seu aplicativo Android.",
+                    "ios": "Configure o serviço com credenciais de APNs obtidas para seu aplicativo iOS.",
+                    "chrome": "Configure o serviço com credenciais de APNs obtidas para seu aplicativo da web do Chrome.",
+                    "chromeExt": "Configure o serviço com credenciais para seus aplicativos e extensões do Chrome.",
+                    "firefox": "Configure o serviço com credenciais obtidas para o seu aplicativo Web Firefox.",
+                    "safari": "Configure o serviço com credenciais obtidas para o seu aplicativo Web Safari."
+                }
+            },
+            "android": {
+                "title": "Android",
+                "senderId": {
+                    "label": "ID do Remetente/ Número do Projeto",
+                    "description": "Você precisa de uma conta do desenvolvedor do Google e de um projeto do Google para gerar um ID de remetente ou número do projeto e uma chave de servidor no Google Developer Console.",
+                    "placeholder": "Entre com o ID do remetente/ Número do projeto"
+                },
+                "serverKey": {
+                    "label": "Chave do Servidor",
+                    "description": "Digite a chave do servidor / chave do servidor Llegacy para o ID do remetente.",
+                    "placeholder": "Entre com a Chave"
+                }
+            },
+            "ios": {
+                "title": "IOS",
+                "environment": {
+                    "label": "Ambiente",
+                    "description": "Selecione o tipo do certificado de APNs. Os certificados Sandbox, de produção e universais no formato p12 são suportados.",
+                    "dev": "Sandbox /Desenvolvimento",
+                    "prod": "Produção"
+                },
+                "pkcs": {
+                    "label": "PKCS 12 (.p12)",
+                    "description": "Por favor faça o upload do arquivo correto do certificado (.p12).",
+                    "add": "Add arquivo"
+                },
+                "password": {
+                    "label": "Senha",
+                    "placeholder": "Entre com a senha"
+                }
+            },
+            "chrome": {
+                "title": "Chrome",
+                "websiteUrl": {
+                    "label": "Website URL",
+                    "description": "A URL do site /aplicativo da web que deve ter permissão para se inscrever no Web Push.",
+                    "placeholder": "Entre com URL"
+                },
+                "serverKey": {
+                    "label": "Chave do Servidor",
+                    "description": "Digite a chave do servidor que fornece ao serviço de notificação por push acesso autorizado aos serviços do Google usado para o Chrome Web Push.",
+                    "placeholder": "Entre com a chave"
+                }
+            },
+            "chromeAppExt": {
+                "title": "Chrome",
+                "senderId": {
+                    "label": "ID do Remetente/ Número do Projeto",
+                    "description": "Você precisa de uma conta do desenvolvedor do Google e de um projeto do Google para gerar um ID de remetente ou número do projeto e uma chave de servidor no Google Developer Console.",
+                    "placeholder": "Entre com o ID do remetente/ Número do projeto"
+                },
+                "serverKey": {
+                    "label": "Chave do Servidor",
+                    "description": "Digite a chave do servidor que fornece ao serviço de notificação por push acesso autorizado aos serviços do Google usado para o Chrome Web Push.",
+                    "placeholder": "Entre com a chave"
+                }
+            },
+            "firefox": {
+                "title": "Firefox",
+                "websiteUrl": {
+                    "label": "Website URL",
+                    "description": "A URL do site /aplicativo da web que deve ter permissão para se inscrever no Web Push.",
+                    "placeholder": "Entre com URL"
+                }
+            },
+            "safari": {
+                "title": "Safari",
+                "websiteName": {
+                    "label": "Nome do website",
+                    "description": "Esse é o nome que você forneceu no centro de notificações.",
+                    "placeholder": "Entre com o nome"
+                },
+                "websitePushId": {
+                    "label": "Website push ID",
+                    "description": "",
+                    "placeholder": "Entre com o ID"
+                },
+                "websiteUrl": {
+                    "label": "Website URL",
+                    "description": "A URL do site /aplicativo da web que deve ter permissão para se inscrever no Web Push.",
+                    "placeholder": "Entre com URL"
+                },
+                "urlFormatString": {
+                    "label": "URL format string",
+                    "description": "O URL a ser resolvido quando a notificação for clicada. Verifique se o URL usa o esquema http ou https.",
+                    "placeholder": "https://%@ or http://%@"
+                },
+                "cert": {
+                    "label": "Safari web push certificado (.p12)",
+                    "description": "Por favor faça o upload do arquivo correto do certificado (.p12).",
+                    "add": "Add arquivo"
+                },
+                "password": {
+                    "label": "Senha",
+                    "placeholder": "Entre com a senha"
+                },
+                "icon": {
+                    "label": "Ícones da Notificação (Opcional)"
+                }
+            }
+        }
+    },
+
+    "email": {
+        "title": "Email",
+        "credits": "Créditos",
+        "clone": "Clonar",
+        "tabs": {
+            "draft": "Rascunho",
+            "scheduled": "Agendado",
+            "published": "Publicado",
+            "sent": "Enviado",
+            "template": "Template"
+        },
+        "create": {
+            "title": "Novo Email",
+            "template": "Novo Template",
+            "unschedule": "Suspender",
+            "unpublish": "Suspender",
+            "send": "Enviar",
+            "tabs": {
+                "editor": "Editor",
+                "settings": "Configurações"
+            },
+            "subject": {
+                "label": "Assunto",
+                "placeholder": "Entre com o assunto"
+            },
+            "components": "Componentes",
+            "editor": "Editor",
+            "settings": {
+                "title": "Configurações",
+                "configure": {
+                    "title": "Configurar",
+                    "messageType": {
+                        "label": "Tipo de Mensagem",
+                        "standard": "Padrão",
+                        "eventTriggered": "Event-Triggered"
+                    },
+                    "selectAudience": {
+                        "label": "Audiência",
+                        "placeholder": "Selecione a fonte de dados",
+                        "event": "Selecione o evento"
+                    },
+                    "sender": {
+                        "name": {
+                            "label": "Nome do remetente",
+                            "placeholder": "HEADER Newsletter"
+                        },
+                        "email": {
+                            "label": "E-mail do remetente",
+                            "placeholder": "noreply",
+                            "domain": "@example.com"
+                        }
+                    },
+                    "ip": {
+                        "label": "Endereço de IP",
+                        "generic": {
+                            "title": "Usar IP Compartilhado",
+                            "options": "Envie usando qualquer IP compartilhado no pool"
+                        },
+                        "dedicated": {
+                            "title": "Use IP Dedicado",
+                            "options": "Você não tem nenhum endereço de ip dedicado"
+                        }
+                    },
+                    "replyTo": {
+                        "label": "Responder para",
+                        "placeholder": "Entre com o email para resposta"
+                    },
+                    "unsubscribeLink": {
+                        "label": "Link para cancelar a inscrição",
+                        "placeholder": "e.g: http://www.example.com"
+                    }
+                },
+
+                "utm": {
+                    "title": "UTM",
+                    "campaignSource": {
+                        "label": "Fonte da Campanhe",
+                        "placeholder": "e.g: google, newsletter"
+                    },
+                    "campaignMedium": {
+                        "label": "Campaign Mediun",
+                        "placeholder": "e.g: cpc, banner, email"
+                    },
+                    "campaignName": {
+                        "label": "Campaign Name",
+                        "placeholder": "Enter campaign name"
+                    }
+                }
+            },
+
+            "finish": {
+                "deliveryMethod": "Método de Entrega",
+                "sendDate": "Data de Envio",
+                "sendHour": "Hora de Envio",
+                "sendNow": "Enviar Agora",
+                "publish": "Publicar",
+                "schedule": "Programar",
+                "resume": "Resumo",
+                "type": "Tipo",
+                "recipients": "Número de Recipientes",
+                "alert": "O número de recipientes pode variar de acordo com o número de opt-in",
+                "messages": "Total de Mensagens",
+                "sendAt": "Enviado em",
+                "notScheduled": "Não Programado",
+                "features": {
+                    "title": "Features",
+                    "inbox": "Inbox Placement",
+                    "optimization": "Send Time Optmization"
+                }
+            },
+
+            "selectSeed": {
+                "label": "Lista de Seed",
+                "placeholder": "Selecione uma Seed"
+            },
+
+            "shortenLink": "Link curto",
+            "addField": "Personalização",
+            "selectField": "Selecione um campo"
+        },
+        "resume": {
+            "title": "Campanha do Cliente",
+            "sentAt": "Enviado em",
+            "details": {
+                "title": "Detalhes da Mensagem",
+                "type": "Tipo",
+                "numMsg": "Número de Mensagens",
+                "total": "Total de Mensagens"
+            },
+            "audience": {
+                "title": "Audiência",
+                "related": "Relacionado a",
+                "type": "Tipo"
+            },
+            "settings": {
+                "title": "Configurações",
+                "seed": "Seed List",
+                "scheduled": "Agendado",
+                "sendDate": "Data de envio",
+                "sendHour": "Hora de envio"
+            },
+            "deliveryRate": {
+                "title": "Taxa de Entrega",
+                "pending": "Pendente",
+                "delivered": "Entregue",
+                "notDelivered": "Não Entregue"
+            },
+            "emailContent": "Conteúdo do email",
+            "errors": {
+                "title": "Erros",
+                "noCredit": "Sem Crédito",
+                "noOptIn": "Não tem Opt-in",
+                "suppressed": "Suprimido",
+                "invalidEmail": "Email Inválido",
+                "blankNumber": "Faltando o Número de Telefone",
+                "others": "Outros"
+            }
+        }
+    },
+
+    "push": {
+        "title": "Push Notification",
+        "credits": "Créditos",
+        "tabs": {
+            "draft": "Rascunho",
+            "scheduled": "Agendado",
+            "published": "Publicado",
+            "sent": "Enviado"
+        },
+        "clone": "Clonar",
+        "create": {
+            "title": "Novo Notificação",
+            "navigationPath": "Push Notification",
+            "unschedule": "Suspender",
+            "unpublish": "Suspender",
+            "send": "Enviar",
+            "editor": "Editor",
+            "settings": "Configurações",
+            "target": {
+                "platform": "Plataforma",
+                "identified": "Usuários Conhecidos"
+            },
+            "selectAudience": {
+                "label": "Audiência",
+                "placeholder": {
+                    "platform": "Selecione uma Plataforma",
+                    "identified": "Selecione uma Audiência"
+                }
+            },
+            "selectSeed": {
+                "label": "Lista de Seed",
+                "placeholder": "Selecione uma Seed"
+            },
+            "pushTitle": {
+                "label": "Título da Notificação",
+                "placeholder": "Entre com o título"
+            },
+            "textMessage": {
+                "label": "Mensagem de Texto",
+                "placeholder": "Escreva a mensagem aqui"
+            },
+            "shortenLink": "Link curto",
+            "addField": "Personalização",
+            "selectField": "Selecione um campo",
+            "counter": "{counter} / {limit} Caracteres | {counter} / {limit} Caracteres | {counter} / {limit} Caracteres {n} mensagens",
+            "infoMessage": "Seu texto será entregue em {n} mensagens, devido ao limite ser {limit} caracteres",
+            "platform": {
+                "label": "Plataforma",
+                "android": "Android",
+                "ios": "IOS",
+                "web": "Web"
+            },
+            "browsers": {
+                "firefox": "Firefox Web",
+                "safari": "Safari Web",
+                "chrome": "Chrome Web",
+                "chromeExt": "Chrome App Ext"
+            },
+            "selectPriority": {
+                "label": "Prioridade",
+                "placeholder": "Selecione a prioridade",
+                "default": "Padrão",
+                "min": "Mínima",
+                "low": "Baixa",
+                "high": "Alta",
+                "max": "Máxima"
+            },
+            "viewAll": {
+                "label": "Ver Tudo",
+                "title": {
+                    "label": "Título",
+                    "placeholder": "Entre com o título"
+                },
+                "action": {
+                    "label": "Action",
+                    "placeholder": ""
+                },
+                "apnsCollapseId": {
+                    "label": "Apns Collapse ID",
+                    "placeholder": ""
+                },
+                "apnsThreadId": {
+                    "label": "Apns Thread ID",
+                    "placeholder": ""
+                },
+                "apnsGroupSummaryArg": {
+                    "label": "Apns Group Summary Arg",
+                    "placeholder": ""
+                },
+                "apnsGroupSummaryArgCount": {
+                    "label": "Apns Group Summary Arg Count",
+                    "placeholder": ""
+                },
+                "attachmentUrl": {
+                    "label": "Attachment URL",
+                    "placeholder": ""
+                },
+                "badge": {
+                    "label": "Badge",
+                    "placeholder": "Entre com o badge"
+                },
+                "collapseKey": {
+                    "label": "Collapse Key",
+                    "placeholder": "Entre com a chave"
+                },
+                "icon": {
+                    "label": "Ícone",
+                    "placeholder": "Entre com o ícone"
+                },
+                "interactiveCategory": {
+                    "label": "Categoria Interativa",
+                    "placeholder": "Entre com a chave da categoria"
+                },
+                "iosActionKey": {
+                    "label": "IOS Action Key",
+                    "placeholder": "Entre com a chave"
+                },
+                "launchImage": {
+                    "label": "Launch Image",
+                    "placeholder": ""
+                },
+                "locArgs": {
+                    "label": "Loc Args",
+                    "placeholder": ""
+                },
+                "locKey": {
+                    "label": "Loc Key",
+                    "placeholder": "Entre com a chave"
+                },
+                "payload": {
+                    "label": "Payload",
+                    "placeholder": ""
+                },
+                "sound": {
+                    "label": "Som",
+                    "placeholder": "Selecione o arquivo de audio"
+                },
+                "titleLocArgs": {
+                    "label": "Title Loc Args",
+                    "placeholder": ""
+                },
+                "titleLocKey": {
+                    "label": "Title Loc Key",
+                    "placeholder": "Entre com a chave"
+                },
+                "ttl": {
+                    "label": "Time to Live (TTL)",
+                    "placeholder": "Entre com o tempo"
+                },
+                "type": {
+                    "label": "Tipo",
+                    "default": "Padrão",
+                    "silent": "Silenciosa"
+                },
+                "urlArgs": {
+                    "label": "URL Args",
+                    "placeholder": ""
+                },
+                "visibility": {
+                    "label": "Visibilidade",
+                    "public": "Pública",
+                    "private": "Privada",
+                    "secret": "Secreta"
+                },
+                "ledColor": "Cor do LED",
+                "ledColors": {
+                    "black": "Preto",
+                    "darkgray": "Cinza Escuro",
+                    "gray": "Cinza",
+                    "lightgray": "Cinza Claro",
+                    "white": "Branco",
+                    "red": "Vermelho",
+                    "green": "Verde",
+                    "blue": "Azul",
+                    "yellow": "Amarelo",
+                    "cyan": "Ciano",
+                    "magenta": "Magenta",
+                    "transparent": "Transparente"
+                },
+                "ledOn": "LED LIGADO (ms)",
+                "ledOff": "LED DESLIGADO (ms)",
+                "ledDelay": "Delay",
+                "ledSync": "Sync",
+                "channelId": {
+                    "label": "CANAL ID",
+                    "placeholder": "Entre com o ID"
+                },
+                "expandable": {
+                    "label": "Notificação Expansível",
+                    "text": "As notificações expansíveis fornecem um layout estendido e mais rico quando expandidas, mas mostram a notificação básica quando recolhidas.",
+                    "none": "Nenhum",
+                    "bigPicture": "Imagem Grande",
+                    "bigText": "Texto Grande",
+                    "inbox": "Inbox"
+                },
+                "pictureTitle": {
+                    "label": "Título da Imagem",
+                    "placeholder": "Insira o título"
+                },
+                "contentType": {
+                    "label": "Tipo de conteúdo",
+                    "placeholder": "Selecione o tipo de conteúdo"
+                },
+                "picture": {
+                    "label": "Imagem",
+                    "placeholder": "Selecione o arquivo de imagem"
+                },
+                "bigTextTitle": {
+                    "label": "Título do texto grande",
+                    "placeholder": "Insira o título"
+                },
+                "bigText": {
+                    "label": "Texto grande",
+                    "placeholder": "Insira o texto"
+                },
+                "inbox": {
+                    "label": "Título da notificação no estilo da Caixa de entrada",
+                    "placeholder": "Insira o título"
+                },
+                "lines": {
+                    "label": "Linhas",
+                    "placeholder": "Insira linhas separadas por vírgula"
+                }
+            },
+            "terms": {
+                "title": "SMS Termos de Uso",
+                "accept": "Eu li e concordo com esses Termos de Uso"
+            },
+            "finish": {
+                "deliveryMethod": "Método de Entrega",
+                "sendDate": "Data de Envio",
+                "sendHour": "Hora de Envio",
+                "sendNow": "Enviar Agora",
+                "publish": "Publicar",
+                "schedule": "Programar",
+                "resume": "Resumo",
+                "type": "Tipo",
+                "recipients": "Número de Recipientes",
+                "alert": "O número de recipientes pode variar de acordo com o número de opt-in",
+                "messages": "Total de Mensagens",
+                "sendAt": "Enviado em",
+                "notScheduled": "Não Programado"
+            }
+        },
+        "resume": {
+            "title": "Campanha do Cliente",
+            "sentAt": "Enviado em",
+            "details": {
+                "title": "Detalhes da Mensagem",
+                "numChar": "Número de Caracteres",
+                "expandable": "Expansível",
+                "type": "Tipo",
+                "assetId": "ID do Ativo",
+                "text": "Texto",
+                "lines": "Linhas",
+                "bigPicture": "Imagem",
+                "bigText": "Texto",
+                "inbox": "Linhas"
+            },
+            "audience": {
+                "title": "Audiência",
+                "related": "Relacionado a",
+                "application": "Aplicativo",
+                "platform": "Plataforma",
+                "type": "Tipo"
+            },
+            "settings": {
+                "title": "Configurações",
+                "seed": "Lista de Seed",
+                "flash": "Flash SMS",
+                "scheduled": "Agendado",
+                "sendDate": "Data de Envio",
+                "sendHour": "Hora de Envio"
+            },
+            "deliveryRate": {
+                "title": "Taxa de Entrega",
+                "pending": "Pendente",
+                "delivered": "Entregue",
+                "notDelivered": "Não Entregue"
+            },
+            "messageTitle": "Título",
+            "textMessage": "Mensagem",
+            "errors": {
+                "title": "Erros",
+                "noOptIn": "Sem Opt-in",
+                "noCredit": "Sem Crédito",
+                "others": "Outros"
+            }
+        }
+    },
+
+    "sms": {
+        "title": "SMS",
+        "credits": "Créditos",
+        "tabs": {
+            "draft": "Rascunho",
+            "scheduled": "Agendado",
+            "published": "Publicado",
+            "sent": "Enviado"
+        },
+        "clone": "Clonar",
+        "create": {
+            "title": "Nova SMS",
+            "unschedule": "Suspender",
+            "unpublish": "Suspender",
+            "send": "Enviar",
+            "editor": "Editor",
+            "settings": "Configurações",
+            "selectAudience": {
+                "label": "Audiência",
+                "placeholder": "Selecione uma Audiência"
+            },
+            "selectSeed": {
+                "label": "Lista de Seed <span class='optional'>(opcional)</span>",
+                "placeholder": "Selecione uma Seed"
+            },
+            "textMessage": {
+                "label": "Mensagem de Texto",
+                "placeholder": "Escreva a mensagem aqui"
+            },
+            "shortenLink": "Link curto",
+            "addField": "Personalização",
+            "selectField": "Selecione um campo",
+            "counter": "{counter} / {limit} Caracteres | {counter} / {limit} Caracteres | {counter} / {limit} Caracteres {n} mensagens",
+            "infoMessage": "Seu texto será entregue em {n} mensagens, devido ao limite ser {limit} caracteres",
+            "removeAccents": "Remover acentos",
+            "flash": "Enviar mensagem como Flash SMS ",
+            "aboutFlash": "Sobre Flash SMS",
+            "aboutFlashText": "Flash SMS é uma mensagem que aparece na tela do telefone como um pop-up, mesmo que a tela esteja bloqueada.",
+            "message": {
+                "label": "Pré-visualização"
+            },
+            "terms": {
+                "title": "SMS Termos de Uso",
+                "accept": "Eu li e concordo com esses Termos de Uso"
+            },
+            "finish": {
+                "deliveryMethod": "Método de Entrega",
+                "sendDate": "Data de Envio",
+                "sendHour": "Hora de Envio",
+                "sendNow": "Enviar Agora",
+                "publish": "Publicar",
+                "schedule": "Programar",
+                "resume": "Resumo",
+                "type": "Tipo",
+                "recipients": "Número de Recipientes",
+                "alert": "O número de recipientes pode variar de acordo com o número de opt-in",
+                "messages": "Total de Mensagens",
+                "sendAt": "Enviado em",
+                "notScheduled": "Não Programado"
+            }
+        },
+        "resume": {
+            "title": "Campanha do Cliente",
+            "sentAt": "Enviado em",
+            "details": {
+                "title": "Detalhes da Mensagem",
+                "numChar": "Número de Caracteres",
+                "numMsg": "Número de Mensagens",
+                "total": "Total de Mensagens"
+            },
+            "audience": {
+                "title": "Audiência",
+                "related": "Relacionado a",
+                "type": "Tipo"
+            },
+            "settings": {
+                "title": "Configurações",
+                "seed": "Seed List",
+                "flash": "Flash SMS",
+                "scheduled": "Agendado",
+                "sendDate": "Data de envio",
+                "sendHour": "Hora de envio"
+            },
+            "deliveryRate": {
+                "title": "Taxa de Entrega",
+                "pending": "Pendente",
+                "delivered": "Entregue",
+                "notDelivered": "Não Entregue"
+            },
+            "textMessage": "Mensagem de Texto",
+            "errors": {
+                "title": "Erros",
+                "noCredit": "Sem Crédito",
+                "noOptIn": "Não tem Opt-in",
+                "suppressed": "Suprimido",
+                "invalidNumber": "Número Inválido",
+                "blankNumber": "Faltando o Número de Telefone",
+                "others": "Outros"
+            }
+        }
+    },
+
+    "experiments": {
+        "title": "Experimentos",
+        "tabs": {
+            "draft": "Rascunho",
+            "scheduled": "Agendado",
+            "published": "Publicado",
+            "sent": "Enviado"
+        },
+        "create": {
+            "title": "Novo Teste",
+            "send": "Enviar",
+            "tabs": {
+                "settings": "Configurações",
+                "results": "Resultados"
+            },
+            "type": "Tipo",
+            "types": {
+                "abTest": "Teste A/B",
+                "personalization": "Personalização",
+                "popup": "Pop-Up"
+            },
+            "period": "Período",
+            "target": {
+                "title": "Alvo",
+                "label": "Página Alvo",
+                "placeholder": "URL Alvo"
+            },
+            "weight": "Peso",
+            "preview": "Pré-visualizar",
+            "variants": {
+                "title": "Variantes",
+                "add": "Add Variante",
+                "none": "Nenhuma variante para este experimento.",
+                "changes": "Alterações ({n})"
+            },
+            "objectives": {
+                "title": "Objetivos",
+                "metric": {
+                    "title": "Métrica",
+                    "desc": "Escolha a métrica ou atividade que deseja testar.",
+                    "select": {
+                        "pageView": "Visualização da Página",
+                        "sessionDuration": "Duração da Sessão",
+                        "formSubmit": "Envio de Formulario",
+                        "assetClick": "Clique em Ativo"
+                    }
+                },
+                "desc": {
+                    "title": "Descrição",
+                    "desc": "Descreva seus objetivos e hipótese que você deseja validar."
+                }
+            },
+            "settings": {
+                "title": "Configurações",
+                "audience": {
+                    "title": "PÚBLICO ALVO",
+                    "desc": "Quem deveria ver esta experiência",
+                    "select": "Todos os visitantes da página da web"
+                },
+                "traffic": {
+                    "title": "ALOCAÇÃO DE TRÁFEGO",
+                    "desc": "Porcentagem de público qualificado para esta experiência."
+                },
+                "trigger": {
+                    "title": "GATILHO DE ATIVAÇÃO",
+                    "desc": "Escolha quando este teste deve ser disparado.",
+                    "select": {
+                        "pageLoad": "Ao carregar a página"
+                    }
+                }
+            }
+        }
+    },
+
+    "automation": {
+        "title": "Automação",
+        "create": {
+            "title": "Novo Programa",
+            "programType": {
+                "label": "Selecione o programa de automação que melhor se adapta à sua estratégia",
+                "eventTrigger": {
+                    "title": "Event-Trigger",
+                    "description": "Crie interações em tempo real com base no comportamento do cliente"
+                },
+                "teamAlert": {
+                    "title": "Alerta de Equipe",
+                    "description": "Envie notificações em tempo real para sua equipe com base no comportamento do cliente"
+                }
+            },
+            "play": "Iniciar",
+            "pause": "Parar",
+            "period": {
+                "selectLabel": "SELECIONE O PERÍODO",
+                "toLabel": "PARA",
+                "permanent": "Permanente"
+            },
+            "designer": {
+                "header": "Designer de Programa",
+                "behavior": "Gatilho",
+                "action": "Ação",
+                "select": {
+                    "behavior": "Selecione o Gatilho",
+                    "action": "Selecione a Ação"
+                }
+            },
+            "behavior": {
+                "title": "Selecione Event-Trigger",
+                "event": {
+                    "label": "Dispare quando este tipo de evento acontecer",
+                    "select": "Escolha um tipo de Evento"
+                },
+                "conditions": {
+                    "add": "Add Condições",
+                    "label": "E se este tipo de evento contém",
+                    "select": "Escolha um campo"
+                },
+                "audience": {
+                    "label": "Apenas para estes contatos",
+                    "select": "Escolha uma audiência"
+                }
+            },
+            "frequency": {
+                "title": "Configurar Frequência",
+                "label": "Frequência por usuário",
+                "helper": "Quantas vezes o mesmo cliente pode disparar este evento.",
+                "placeholder": "Ilimitado"
+            },
+            "action": {
+                "title": "Selecione a Ação",
+                "type": {
+                    "title": "Tipo de Mensagem",
+                    "label": "Escolha o tipo de mensagem",
+                    "select": "Escolha um tipo de mensagem"
+                },
+                "message": {
+                    "title": "Mensagem",
+                    "label": "Escolha a mensagem que deseja enviar quando o gatilho disparar esta ação",
+                    "select": "Escolha uma mensagem"
+                }
+            }
+        }
+    },
+
+    "personalization": {
+        "title": "Personalização",
+        "create": {
+            "title": "Nova Regra",
+            "play": "Iniciar",
+            "pause": "Parar",
+            "period": {
+                "selectLabel": "SELECIONE O PERÍODO",
+                "toLabel": "PARA",
+                "permanent": "Permanente"
+            },
+            "designer": {
+                "header": "Designer de Regras",
+                "audience": "Audiência",
+                "group": "Grupo",
+                "channel": "Canal",
+                "contentType": "Tipo de Conteúdo",
+                "select": {
+                    "audience": "Selecione Audiência",
+                    "group": "Selecione o Grupo",
+                    "channel": "Selecione o Canal",
+                    "contentType": "Selecione o Tipo de Conteúdo"
+                }
+            }
+        }
+    },
+
+    "contentTypes": {
+        "title": "Tipos de Conteúdo",
+        "website": "Website",
+        "email": "Email",
+        "mobile": "Móvel",
+        "types": {
+            "dynamic": "Dinâmico",
+            "static": "Estático"
+        },
+        "tabs": {
+            "web": "Web",
+            "email": "E-mail",
+            "mobile": "Móvel",
+            "social": "Social",
+            "sms": "SMS",
+            "mirror": "Espelho"
+        },
+        "create": {
+            "title": "Novo Tipo de Conteúdo",
+            "steps": {
+                "one": {
+                    "name": {
+                        "label": "Nome",
+                        "placeholder": "Nome"
+                    },
+                    "related": {
+                        "label": "Relacionado à",
+                        "placeholder": "Selecione uma relação"
+                    },
+                    "type": "Tipo",
+                    "channel": "Canal Relacionado"
+                },
+                "two": {
+                    "title": "Configuração de ativos",
+                    "dimensions": {
+                        "label": "Dimensões",
+                        "height": "Altura",
+                        "width": "Largura"
+                    },
+                    "format": "Formatos",
+                    "sizeLimit": {
+                        "label": "Tamanho Limite",
+                        "hint": "Deve ser maior que zero"
+                    }
+                },
+                "three": {
+                    "title": "Definir ativo padrão",
+                    "chooseAsset": "Escolha no Content Manager",
+                    "default": {
+                        "local": "Carregar novo ativo",
+                        "assets": "Selecionar ativo existente"
+                    }
+                }
+            }
+        },
+        "view": {
+            "addTo": "Adicionar ao tipo de conteúdo",
+            "removeFrom": "Remover do tipo de conteúdo",
+            "removeFromText": "Você tem certeza que quer remover este ativo ({asset}) deste tipo de conteúdo | Você tem certeza que quer remover {n} ativos deste tipo de conteúdo",
+            "added": "{n} ativo será adicionado | {n} ativos serão adicionados",
+            "btnAdd": "Adicionar",
+            "setAssetDefault": "Definir como padrão"
+        },
+        "edit": {
+            "title": "Editar Tipo de Conteúdo"
+        }
+    },
+
+    "groups": {
+        "title": "Grupos",
+        "create": {
+            "title": "Novo Grupo",
+            "name": {
+                "label": "Nome",
+                "placeholder": "Nome"
+            }
+        },
+        "view": {
+            "addTo": "Adicionar ao Grupo",
+            "removeFrom": "Remover do Grupo",
+            "removeFromText": "Você tem certeza que quer remover este ativo ({asset}) deste grupo | Você tem certeza que quer remover {n} ativos deste grupo",
+            "added": "{n} ativo será adicionado | {n} ativos serão adicionados",
+            "btnAdd": "Adicionar"
+        }
+    },
+
+    "assets": {
+        "name": "Ativo",
+        "title": "Ativos",
+        "contentType": {
+            "none": "Não há nenhum tipo de conteúdo que corresponda a este recurso.",
+            "add": "Adicionar ao Tipo de Conteúdo",
+            "selectLabel": "Selecione um tipo de conteúdo para adicionar",
+            "select": "Selecione um tipo de conteúdo"
+        },
+        "group": {
+            "none": "Não há grupo.",
+            "add": "Adicionar ao Grupo",
+            "selectLabel": "Selecione um grupo para adicionar",
+            "select": "Selecione um grupo"
+        },
+        "preview": {
+            "size": "Tamanho",
+            "dimensions": "Dimensões",
+            "duration": "Duração",
+            "format": "Formato",
+            "description": "Descrição",
+            "channel": "Canal | Canais",
+            "contentType": "Tipo de Conteúdo | Tipos de Conteúdo",
+            "group": "Grupo | Grupos",
+            "url": "URL",
+            "owner": "Responsável",
+            "personalization": {
+                "select": {
+                    "label": "IDIOMA",
+                    "placeholder": "Selecione"
+                },
+                "label": "ATRIBUTOS",
+                "title": "Título",
+                "subtitle": "Subtítulo",
+                "link": "Link",
+                "actionText": "Texto do Botão"
+            },
+            "tags": {
+                "personalized": "Tags Personalizadas",
+                "ai": "Tags I.A."
+            }
+        },
+        "tabs": {
+            "image": "Imagem",
+            "video": "Vídeo",
+            "audio": "Áudio",
+            "data": "Dado"
+        },
+        "list": {
+            "image": "IMAGEM",
+            "video": "VÍDEO",
+            "audio": "ÁUDIO",
+            "data": "DADO"
+        },
+        "addTag": "Add",
+        "create": {
+            "title": "Novo Ativo",
+            "steps": {
+                "one": {
+                    "isAd": "É um anúncio",
+                    "title": "Carregar Ativo",
+                    "filename": "Nome do Arquivo",
+                    "description": {
+                        "label": "Descrição",
+                        "placeholder": "Escreva aqui"
+                    },
+                    "formats": "Formatos Permitido"
+                },
+                "two": {
+                    "title": "Definir Tipos de Conteúdo",
+                    "channel": "Canal",
+                    "contentType": "Tipo de Conteúdo"
+                },
+                "three": {
+                    "title": "Definir Grupos",
+                    "group": "Grupo"
+                },
+                "four": {
+                    "title": "Personalização",
+                    "lang": "Selecione uma",
+                    "realTime": "Personalização em tempo real",
+                    "database": {
+                        "label": "Banco de dados",
+                        "placeholder": "Selecione uma fonte de dados"
+                    },
+                    "field": {
+                        "label": "Campo",
+                        "placeholder": "Selecione um campo"
+                    },
+                    "tabs": {
+                        "title": {
+                            "label": "Título",
+                            "placeholder": "Escreva o título"
+                        },
+                        "subtitle": {
+                            "label": "Subtítulo",
+                            "placeholder": "Escreva o subtítulo"
+                        },
+                        "link": {
+                            "label": "Link",
+                            "placeholder": "Escreva o link"
+                        },
+                        "linkText": {
+                            "label": "Texto do Botão",
+                            "placeholder": "Escreva o texto do botão"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

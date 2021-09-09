@@ -1,0 +1,9 @@
+applications:
+  - path: .
+    name: HEADER Front-End Web App
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    disk_quota: 1024M
+    routes:
+      - route: header-front-end-web-app-dal-staging.mybluemix.net

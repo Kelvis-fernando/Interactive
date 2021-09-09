@@ -1,0 +1,13 @@
+<script lang="ts">
+import { Component } from 'vue-property-decorator';
+
+import { ReactiveProp } from '@/plugins/charts/vue-chartjs';
+
+@Component
+export default class VerticalBarChart extends ReactiveProp {
+  mounted(): void {
+    this._chartType = 'bar';
+    this.renderChart(this.chartData, this.options);
+  }
+}
+</script>

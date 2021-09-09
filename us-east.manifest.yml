@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: HEADER Front-End Web App
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    routes:
+      - route: dx.headerinteractive.com
+      - route: header-front-end-web-app-wdc-production.us-east.mybluemix.net
+    disk_quota: 1024M

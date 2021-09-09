@@ -1,0 +1,481 @@
+@font-face {
+  font-family: 'header-icons';
+  src:  url('header-icons.eot?4769i0');
+  src:  url('header-icons.eot?4769i0#iefix') format('embedded-opentype'),
+    url('header-icons.ttf?4769i0') format('truetype'),
+    url('header-icons.woff?4769i0') format('woff'),
+    url('header-icons.svg?4769i0#header-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hi-"], [class*=" hi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'header-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-access-time:before {
+  content: "\e900";
+}
+.hi-add:before {
+  content: "\e901";
+}
+.hi-add-circle:before {
+  content: "\e902";
+}
+.hi-add-circle-outlined:before {
+  content: "\e903";
+}
+.hi-add-content-type:before {
+  content: "\e904";
+}
+.hi-arrow-all:before {
+  content: "\e905";
+}
+.hi-arrow-decrease:before {
+  content: "\e906";
+}
+.hi-arrow-down:before {
+  content: "\e907";
+}
+.hi-arrow-down-alt:before {
+  content: "\e908";
+}
+.hi-arrow-increase:before {
+  content: "\e909";
+}
+.hi-arrow-left:before {
+  content: "\e90a";
+}
+.hi-arrow-left-alt:before {
+  content: "\e90b";
+}
+.hi-arrow-right:before {
+  content: "\e90c";
+}
+.hi-arrow-right-alt:before {
+  content: "\e90d";
+}
+.hi-arrow-up:before {
+  content: "\e90e";
+}
+.hi-arrow-up-alt:before {
+  content: "\e90f";
+}
+.hi-audio:before {
+  content: "\e910";
+}
+.hi-avatar:before {
+  content: "\e911";
+}
+.hi-button:before {
+  content: "\e912";
+}
+.hi-calendar-today:before {
+  content: "\e913";
+}
+.hi-cancel:before {
+  content: "\e914";
+}
+.hi-chat:before {
+  content: "\e915";
+}
+.hi-check-box:before {
+  content: "\e916";
+}
+.hi-check-box-blank:before {
+  content: "\e917";
+}
+.hi-check-circle-outlined:before {
+  content: "\e918";
+}
+.hi-clock:before {
+  content: "\e919";
+}
+.hi-close:before {
+  content: "\e91a";
+}
+.hi-code:before {
+  content: "\e91b";
+}
+.hi-cogs:before {
+  content: "\e91c";
+}
+.hi-company:before {
+  content: "\e91d";
+}
+.hi-component-container:before {
+  content: "\e91e";
+}
+.hi-component-div-block:before {
+  content: "\e91f";
+}
+.hi-component-divider:before {
+  content: "\e920";
+}
+.hi-component-form-checkbox:before {
+  content: "\e921";
+}
+.hi-component-form-radio:before {
+  content: "\e922";
+}
+.hi-component-grid:before {
+  content: "\e923";
+}
+.hi-component-map:before {
+  content: "\e924";
+}
+.hi-component-paragraph:before {
+  content: "\e925";
+  color: rgba(112, 112, 112, 0.5);
+}
+.hi-component-rich-text:before {
+  content: "\e926";
+}
+.hi-component-tabs:before {
+  content: "\e927";
+}
+.hi-component-tooltip:before {
+  content: "\e928";
+}
+.hi-contact-lists:before {
+  content: "\e929";
+}
+.hi-content-manager:before {
+  content: "\e92a";
+}
+.hi-content-type:before {
+  content: "\e92b";
+}
+.hi-create-folder:before {
+  content: "\e92c";
+}
+.hi-create-folder-circle:before {
+  content: "\e92d";
+}
+.hi-create-group:before {
+  content: "\e92e";
+}
+.hi-cube:before {
+  content: "\e92f";
+}
+.hi-customer-engagement:before {
+  content: "\e930";
+}
+.hi-data:before {
+  content: "\e931";
+}
+.hi-database:before {
+  content: "\e932";
+}
+.hi-delete:before {
+  content: "\e933";
+}
+.hi-desktop:before {
+  content: "\e934";
+}
+.hi-divider:before {
+  content: "\e935";
+}
+.hi-download:before {
+  content: "\e936";
+}
+.hi-drag:before {
+  content: "\e937";
+}
+.hi-edit:before {
+  content: "\e938";
+}
+.hi-edit-information:before {
+  content: "\e939";
+}
+.hi-experience-planning:before {
+  content: "\e93a";
+}
+.hi-facebook:before {
+  content: "\e93b";
+}
+.hi-file-blank:before {
+  content: "\e93c";
+}
+.hi-filter:before {
+  content: "\e93d";
+}
+.hi-flip-front:before {
+  content: "\e93e";
+}
+.hi-folder:before {
+  content: "\e93f";
+}
+.hi-folder-solid:before {
+  content: "\e940";
+}
+.hi-footer:before {
+  content: "\e941";
+}
+.hi-fullscreen:before {
+  content: "\e942";
+}
+.hi-globe:before {
+  content: "\e943";
+}
+.hi-help-circle-outlined:before {
+  content: "\e944";
+}
+.hi-image:before {
+  content: "\e945";
+}
+.hi-import:before {
+  content: "\e946";
+}
+.hi-info:before {
+  content: "\e947";
+}
+.hi-info-circle-outlined:before {
+  content: "\e948";
+}
+.hi-information:before {
+  content: "\e949";
+}
+.hi-instagram:before {
+  content: "\e94a";
+}
+.hi-integrations:before {
+  content: "\e94b";
+}
+.hi-key:before {
+  content: "\e94c";
+}
+.hi-keyboard-arrow-down:before {
+  content: "\e94d";
+}
+.hi-keyboard-arrow-left:before {
+  content: "\e94e";
+}
+.hi-keyboard-arrow-right:before {
+  content: "\e94f";
+}
+.hi-keyboard-arrow-up:before {
+  content: "\e950";
+}
+.hi-laptop:before {
+  content: "\e951";
+}
+.hi-launch:before {
+  content: "\e952";
+}
+.hi-linkedin:before {
+  content: "\e953";
+}
+.hi-list:before {
+  content: "\e954";
+}
+.hi-lock:before {
+  content: "\e955";
+}
+.hi-mail-outlined:before {
+  content: "\e956";
+}
+.hi-media:before {
+  content: "\e957";
+}
+.hi-mobile:before {
+  content: "\e958";
+}
+.hi-more-h:before {
+  content: "\e959";
+}
+.hi-more-h-outlined:before {
+  content: "\e95a";
+}
+.hi-more-v:before {
+  content: "\e95b";
+}
+.hi-more-v-outlined:before {
+  content: "\e95c";
+}
+.hi-notifications:before {
+  content: "\e95d";
+}
+.hi-pause:before {
+  content: "\e95e";
+}
+.hi-people:before {
+  content: "\e95f";
+}
+.hi-person:before {
+  content: "\e960";
+}
+.hi-personalization:before {
+  content: "\e961";
+}
+.hi-person-card:before {
+  content: "\e962";
+}
+.hi-play:before {
+  content: "\e963";
+}
+.hi-play-dark:before {
+  content: "\e964";
+}
+.hi-refresh:before {
+  content: "\e965";
+}
+.hi-relational-tables:before {
+  content: "\e966";
+}
+.hi-remove:before {
+  content: "\e967";
+}
+.hi-remove-content-type:before {
+  content: "\e968";
+}
+.hi-remove-folder-circle:before {
+  content: "\e969";
+}
+.hi-remove-outlined:before {
+  content: "\e96a";
+}
+.hi-remove-square:before {
+  content: "\e96b";
+}
+.hi-repeat:before {
+  content: "\e96c";
+}
+.hi-search:before {
+  content: "\e96d";
+}
+.hi-segments:before {
+  content: "\e96e";
+}
+.hi-select:before {
+  content: "\e96f";
+}
+.hi-send:before {
+  content: "\e970";
+}
+.hi-send-schedule:before {
+  content: "\e971";
+}
+.hi-shorten-link:before {
+  content: "\e972";
+}
+.hi-social:before {
+  content: "\e973";
+}
+.hi-social-networks:before {
+  content: "\e974";
+}
+.hi-sort:before {
+  content: "\e975";
+}
+.hi-star:before {
+  content: "\e976";
+}
+.hi-star-outlined:before {
+  content: "\e977";
+}
+.hi-table-sort:before {
+  content: "\e978";
+}
+.hi-tablet:before {
+  content: "\e979";
+}
+.hi-tag:before {
+  content: "\e97a";
+}
+.hi-templates:before {
+  content: "\e97b";
+}
+.hi-text:before {
+  content: "\e97c";
+}
+.hi-transfer:before {
+  content: "\e97d";
+}
+.hi-twitter:before {
+  content: "\e97e";
+}
+.hi-upload:before {
+  content: "\e97f";
+}
+.hi-upload-file:before {
+  content: "\e980";
+}
+.hi-video:before {
+  content: "\e981";
+}
+.hi-view-group:before {
+  content: "\e982";
+}
+.hi-view-group-active:before {
+  content: "\e983";
+}
+.hi-view-module:before {
+  content: "\e984";
+}
+.hi-web-forms:before {
+  content: "\e985";
+}
+.hi-wechat:before {
+  content: "\e986";
+}
+.hi-world-map:before {
+  content: "\e987";
+}
+.hi-zoom-in:before {
+  content: "\e988";
+}
+.hi-zoom-out:before {
+  content: "\e989";
+}
+.hi-area-chart:before {
+  content: "\e98a";
+}
+.hi-bar-chart:before {
+  content: "\e98b";
+}
+.hi-bar-chart-outlined:before {
+  content: "\e98c";
+}
+.hi-bubble-chart:before {
+  content: "\e98d";
+}
+.hi-doughnut-chart:before {
+  content: "\e98e";
+}
+.hi-heat-chart:before {
+  content: "\e98f";
+}
+.hi-horizontal-bar-chart:before {
+  content: "\e990";
+}
+.hi-horizontal-timeline-chart:before {
+  content: "\e991";
+}
+.hi-line-chart:before {
+  content: "\e992";
+}
+.hi-pie-chart:before {
+  content: "\e993";
+}
+.hi-vertical-bar-chart:before {
+  content: "\e994";
+}
+.hi-vertical-timeline-chart:before {
+  content: "\e995";
+}
+.hi-where-to-chart:before {
+  content: "\e996";
+}
